@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="robots" content="noindex,nofollow">
+	<title>AWKmall | Main</title>
+	<link rel="stylesheet" href="../static/css/common.css">
+	<link rel="stylesheet" href="../static/css/component.css">
+	<link rel="stylesheet" href="../static/css/content.css">
+	<script type="text/javascript" src="../static/js/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="../static/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="../static/js/placeholders.min.js"></script>
+	<script type="text/javascript" src="../static/js/ui.js"></script>
+</head>
+<body>
+<a href="#contents" class="skip">Skip to Content</a>
+
+<!-- 전체 -->
+<div id="wrap">
+	<!-- 헤더 영역 -->
+	<header id="header">
+		<div class="top_banner on" style="background:#c0d6f6;">
+			<div class="banner">
+				<a href="#"><img src="../static/img/banner/banner_header_top.jpg" alt="BRAND DAY SALE up to 50%"></a>
+				<button type="button" class="btn_close"><span><img src="../static/img/btn/btn_topbn_cls.png" alt="접어두기"></span></button>
+			</div>
+			<button type="button" class="btn_open"><span><img src="../static/img/btn/btn_topbn_open.gif" alt="펼쳐보기"></span></button>
+		</div>
+		<div class="top_menu">
+			<div class="inner_align clear">
+				<ul class="brand_menu">
+					<li class="on"><a href="#" target="_blank">AWK MALL</a></li>
+					<li><a href="#" target="_blank">AWK kids</a></li>
+					<li><a href="#" target="_blank">AIRWALK junior</a></li>
+					<li><a href="#" target="_blank">AWK</a></li>
+					<li><a href="#" target="_blank">TOMSTORY</a></li>
+				</ul>
+				<ul class="util_menu">
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">마이페이지</a></li>
+					<!-- 바로방문 ON인 경우 노출 -->
+					<li class="visit_direct">
+						바로방문 <span class="direct on">ON</span>
+						<div class="msg_box">
+							<a href="../event/event_direct.php"><img src="../static/img/common/visit_direct_msg.png" alt="바로방문 on 접속 시, 매일 1인 1회 2,000원 할인 쿠폰을 드립니다. 자세히 보기"></a>
+						</div>
+					</li>
+					<!-- //바로방문 ON인 경우 노출 -->
+					<!-- 바로방문 OFF인 경우 노출(hide 클래스 삭제후 사용가능) -->
+					<li class='hide'><a href="../event/event_direct.php">바로방문 <span class="direct">OFF</span></a></li>
+					<!-- //바로방문 OFF인 경우 노출 -->
+				</ul>
+			</div>
+		</div>
+		<div class="header_con">
+			<div class="inner_align">
+				<h1 class="logo"><a href="#"><img src="../static/img/common/logo_h1.png" alt="AWKmall"></a></h1>
+				<!-- 검색창 -->
+				<div class="header_search_wrap">
+					<div class="search_box">
+						<input type="text" class="search_input" title="검색어 입력자리" placeholder="검색어를 입력하세요">
+					</div>
+					<!-- 랭킹 -->
+					<div class="search_ranking">
+						<p class="title">랭킹</p>
+						<ol class="slide">
+							<li><span class="num">1.</span> <a href="#">바람막이 점퍼</a></li>
+							<li><span class="num">2.</span> <a href="#">트레이닝</a></li>
+							<li><span class="num">3.</span> <a href="#">어린이날 선물</a></li>
+							<li><span class="num">4.</span> <a href="#">래쉬가드</a></li>
+							<li><span class="num">5.</span> <a href="#">바지</a></li>
+							<li><span class="num">6.</span> <a href="#">방수</a></li>
+							<li><span class="num">7.</span> <a href="#">아우터</a></li>
+							<li><span class="num">8.</span> <a href="#">운동화</a></li>
+							<li><span class="num">9.</span> <a href="#">티셔츠</a></li>
+							<li><span class="num">10.</span> <a href="#">가방</a></li>
+						</ol>
+					</div>
+					<!-- //랭킹 -->
+					<!-- 검색어 탭 -->
+					<div class="search_keyword">
+						<div class="search_tab" data-ui="TabMenu">
+							<div class="tab-menu clear">
+								<button type="button" data-content="menu" class="active" title="선택됨"><span>최근 검색어</span></button>
+								<button type="button" data-content="menu"><span>인기 검색어</span></button>
+							</div>
+							<!-- 최근 검색어 -->
+							<div class="tab-content active" data-content="content">
+								<div class="recent_keyword">
+									<ul class="list">
+										<li>
+											<a href="#">바람막이 점퍼</a>
+											<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+										</li>
+										<li>
+											<a href="#">티셔츠</a>
+											<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+										</li>
+										<li>
+											<a href="#">어린이날 선물</a>
+											<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+										</li>
+										<li>
+											<a href="#">트레이닝 상의</a>
+											<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+										</li>
+										<li>
+											<a href="#">트레이닝 하의</a>
+											<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+										</li>
+									</ul>
+									<div class="btn_area">
+										<button type="button" class="keyword_all_del"><span>검색어 삭제</span></button>
+									</div>
+								</div>
+							</div>
+							<!-- //최근 검색어 -->
+							<!-- 인기 검색어 -->
+							<div class="tab-content" data-content="content">
+								<div class="hot_keyword clear">
+									<ul class="list">
+										<li><span class="num">1.</span> <a href="#">바람막이 점퍼</a></li>
+										<li><span class="num">2.</span> <a href="#">트레이닝</a></li>
+										<li><span class="num">3.</span> <a href="#">어린이날 선물</a></li>
+										<li><span class="num">4.</span> <a href="#">래쉬가드</a></li>
+										<li><span class="num">5.</span> <a href="#">바지</a></li>
+									</ul>
+									<ul class="list">
+										<li><span class="num">6.</span> <a href="#">방수</a></li>
+										<li><span class="num">7.</span> <a href="#">아우터</a></li>
+										<li><span class="num">8.</span> <a href="#">운동화</a></li>
+										<li><span class="num">9.</span> <a href="#">티셔츠</a></li>
+										<li><span class="num">10.</span> <a href="#">가방</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- //인기 검색어 -->
+						</div>
+						<button type="button" class="btn_cls_keyword"><span>닫기</span></button>
+					</div>
+					<!-- //검색어 탭 -->
+					<button type="submit" class="btn_search" title="검색"><span><i class="icon_search">검색</i></span></button>
+				</div>
+				<!-- //검색창 -->
+			</div>
+		</div>
+		<nav class="gnb_wrap">
+			<div class="inner_align clear">
+				<!-- 메인 메뉴 -->
+				<div class="gnb">
+					<ul class="main_category">
+						<li>
+							<a href="#"><span>KIDS</span></a>
+							<!-- 하위메뉴&컨텐츠 -->
+							<div class="sub_container">
+								<div class="sub_category">
+									<p class="sub_cate_name">KIDS <span class="exp">(4~8세)</span></p>
+									<ul class="sub_cate_list">
+										<li><a href="#">OUTER</a></li>
+										<li><a href="#">INNER</a></li>
+										<li><a href="#">BOTTOM</a></li>
+										<li><a href="#">ACC</a></li>
+									</ul>
+								</div>
+								<div class="sub_content">
+									<div class="banner"><a href="#"><img src="../static/img/banner/banner_gnb_sub.jpg" alt="트레이닝/캐주얼 봄나들이룩 제안!"></a></div><!-- [D] 배너 사이즈: 340x60 -->
+									<ul class="goods_list">
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods26.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="del"><del>29,900</del>원</span>
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods27.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- //하위메뉴&컨텐츠 -->
+						</li>
+						<li>
+							<a href="#"><span>JUNIOR</span></a>
+							<!-- 하위메뉴&컨텐츠 -->
+							<div class="sub_container">
+								<div class="sub_category">
+									<p class="sub_cate_name">JUNIOR</p>
+									<ul class="sub_cate_list">
+										<li><a href="#">OUTER</a></li>
+										<li><a href="#">INNER</a></li>
+										<li><a href="#">BOTTOM</a></li>
+										<li><a href="#">ACC</a></li>
+									</ul>
+								</div>
+								<div class="sub_content">
+									<div class="banner"><a href="#"><img src="../static/img/banner/banner_gnb_sub.jpg" alt="트레이닝/캐주얼 봄나들이룩 제안!"></a></div>
+									<ul class="goods_list">
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods26.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="del"><del>29,900</del>원</span>
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods27.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- //하위메뉴&컨텐츠 -->
+						</li>
+						<li>
+							<a href="#"><span>MEN</span></a>
+							<!-- 하위메뉴&컨텐츠 -->
+							<div class="sub_container">
+								<div class="sub_category">
+									<p class="sub_cate_name">MEN</p>
+									<ul class="sub_cate_list">
+										<li><a href="#">OUTER</a></li>
+										<li><a href="#">INNER</a></li>
+										<li><a href="#">BOTTOM</a></li>
+										<li><a href="#">ACC</a></li>
+									</ul>
+								</div>
+								<div class="sub_content">
+									<div class="banner"><a href="#"><img src="../static/img/banner/banner_gnb_sub.jpg" alt="트레이닝/캐주얼 봄나들이룩 제안!"></a></div>
+									<ul class="goods_list">
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods26.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="del"><del>29,900</del>원</span>
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods27.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- //하위메뉴&컨텐츠 -->
+						</li>
+						<li>
+							<a href="#"><span>WOMEN</span></a>
+							<!-- 하위메뉴&컨텐츠 -->
+							<div class="sub_container">
+								<div class="sub_category">
+									<p class="sub_cate_name">WOMEN</p>
+									<ul class="sub_cate_list">
+										<li><a href="#">OUTER</a></li>
+										<li><a href="#">INNER</a></li>
+										<li><a href="#">BOTTOM</a></li>
+										<li><a href="#">ACC</a></li>
+									</ul>
+								</div>
+								<div class="sub_content">
+									<div class="banner"><a href="#"><img src="../static/img/banner/banner_gnb_sub.jpg" alt="트레이닝/캐주얼 봄나들이룩 제안!"></a></div>
+									<ul class="goods_list">
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods26.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="del"><del>29,900</del>원</span>
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods27.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- //하위메뉴&컨텐츠 -->
+						</li>
+						<li>
+							<a href="#"><span>OUTLET</span></a>
+							<!-- 하위메뉴&컨텐츠 -->
+							<div class="sub_container">
+								<div class="sub_category">
+									<p class="sub_cate_name">OUTLET</p>
+									<ul class="sub_cate_list">
+										<li><a href="#">OUTER</a></li>
+										<li><a href="#">INNER</a></li>
+										<li><a href="#">BOTTOM</a></li>
+										<li><a href="#">ACC</a></li>
+									</ul>
+								</div>
+								<div class="sub_content">
+									<div class="banner"><a href="#"><img src="../static/img/banner/banner_gnb_sub.jpg" alt="트레이닝/캐주얼 봄나들이룩 제안!"></a></div>
+									<ul class="goods_list">
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods26.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="del"><del>29,900</del>원</span>
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="goods_wrap">
+												<a href="#">
+													<div class="img_area"><span class="img"><img src="../static/img/test/@goods27.jpg" alt="상품이미지"></span></div>
+													<div class="over_content">
+														<div class="info">
+															<div class="brand">AIRWALK junior</div>
+															<div class="name">바람막이 점퍼</div>
+															<div class="price_wrap">
+																<span class="price"><strong>29,900</strong>원</span>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- //하위메뉴&컨텐츠 -->
+						</li>
+						<li><a href="#"><span>SHOW WINDOW</span></a></li>
+					</ul>
+				</div>
+				<!-- //메인 메뉴 -->
+				<!-- 컨텐츠 메뉴 -->
+				<div class="content_menu">
+					<ul>
+						<li><a href="#"><span>EVENT</span></a></li>
+						<li>
+							<a href="#"><span>STYLE+</span></a>
+							<!-- 하위메뉴 -->
+							<div class="sub_menu">
+								<p class="tit">STYLE<sup>+</sup></p>
+								<ul class="menu">
+									<li><a href="#">LOOKBOOK</a></li>
+									<li><a href="#">CODIBOOK</a></li>
+									<li><a href="#">MAGAZINE</a></li>
+									<li><a href="#">MOVIE</a></li>
+									<li><a href="#">INSTAGRAM</a></li>
+								</ul>
+							</div>
+							<!-- //하위메뉴 -->
+						</li>
+						<li>
+							<a href="#"><span>COMMUNITY</span></a>
+							<!-- 하위메뉴 -->
+							<div class="sub_menu">
+								<p class="tit">COMMUNITY</p>
+								<ul class="menu">
+									<li><a href="#">도전! AWK모델</a></li>
+									<li><a href="#">서포터즈</a></li>
+									<li><a href="#">베스트 리뷰</a></li>
+								</ul>
+							</div>
+							<!-- //하위메뉴 -->
+						</li>
+					</ul>
+					<button type="button" class="fixhd_search_btn" title="검색"><span><i class="icon_search_w">검색</i></span></button>
+				</div>
+				<!-- //컨텐츠 메뉴 -->
+			</div>
+		</nav>
+	</header>
+	<!-- //헤더 영역 -->
+
+	<!-- 컨텐츠 영역 -->
+	<div id="contents">
+		<!-- 메인 비주얼 -->
+		<div class="main_visual_wrap">
+			<div class="main_visual with-rolling">
+				<ul class="slider">
+					<li style="background:#ffe3e7;"><a href="#"><img src="../static/img/banner/banner_main_slide01.jpg" alt="메인 배너"></a></li>
+					<li style="background:#f3f0ec;"><a href="#"><img src="../static/img/banner/banner_main_slide02.jpg" alt="메인 배너"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //메인 비주얼 -->
+
+		<!-- NEW ARRIVALS -->
+		<div class="main_contents_wrap main_new_arrivals">
+			<div class="inner_align">
+				<h2 class="main_title">NEW ARRIVALS</h2>
+				<div class="goods_list_wrap">
+					<ul class="goods_list ea5">
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img_area">
+										<span class="def img"><img src="../static/img/test/@goods16.jpg" alt="상품이미지"></span>
+										<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+									</div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+									</div>
+								</a>
+								<div class="over_content">
+									<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+									<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img_area">
+										<span class="def img"><img src="../static/img/test/@goods17.jpg" alt="상품이미지"></span>
+										<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+									</div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+									</div>
+								</a>
+								<div class="over_content">
+									<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+									<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img_area">
+										<span class="def img"><img src="../static/img/test/@goods18.jpg" alt="상품이미지"></span>
+										<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+									</div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+									</div>
+								</a>
+								<div class="over_content">
+									<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+									<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img_area">
+										<span class="def img"><img src="../static/img/test/@goods13.jpg" alt="상품이미지"></span>
+										<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+									</div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+									</div>
+								</a>
+								<div class="over_content">
+									<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+									<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img_area">
+										<span class="def img"><img src="../static/img/test/@goods01.jpg" alt="상품이미지"></span>
+										<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+									</div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+									</div>
+								</a>
+								<div class="over_content">
+									<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+									<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- //NEW ARRIVALS -->
+
+		<!-- HOT# -->
+		<div class="main_contents_wrap main_hot">
+			<div class="inner_align">
+				<h2 class="main_title">HOT#</h2>
+				<div class="main_hot_tab" data-ui="TabMenu">
+					<div class="tab-menu clear">
+						<button type="button" data-content="menu" class="active" title="선택됨"><span>#신학기 필수템</span></button>
+						<button type="button" data-content="menu"><span>#스테디셀러</span></button>
+						<button type="button" data-content="menu"><span>#바람막이</span></button>
+						<button type="button" data-content="menu"><span>#여친취향저격</span></button>
+						<button type="button" data-content="menu"><span>#봄소풍가방</span></button>
+					</div>
+					<!-- 해시태그 01 -->
+					<div class="tab-content active" data-content="content">
+						<div class="goods_list_wrap">
+							<ul class="goods_list ea5">
+								<li>
+									<div class="goods_wrap">
+										<a href="#">
+											<div class="img_area">
+												<span class="def img"><img src="../static/img/test/@goods04.jpg" alt="상품이미지"></span>
+												<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+											</div>
+											<div class="info">
+												<div class="info_name">
+													<div class="brand">AIRWALK junior</div>
+													<div class="name">바람막이 점퍼</div>
+												</div>
+												<div class="info_price">
+													<div class="price_wrap">
+														<span class="del"><del>29,900</del>원</span>
+														<span class="price"><strong>29,900</strong>원</span>
+													</div>
+												</div>
+											</div>
+										</a>
+										<div class="over_content">
+											<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+											<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="goods_wrap">
+										<a href="#">
+											<div class="img_area">
+												<span class="def img"><img src="../static/img/test/@goods06.jpg" alt="상품이미지"></span>
+												<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+											</div>
+											<div class="info">
+												<div class="info_name">
+													<div class="brand">AIRWALK junior</div>
+													<div class="name">바람막이 점퍼</div>
+												</div>
+												<div class="info_price">
+													<div class="price_wrap">
+														<span class="del"><del>29,900</del>원</span>
+														<span class="price"><strong>29,900</strong>원</span>
+													</div>
+												</div>
+											</div>
+										</a>
+										<div class="over_content">
+											<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+											<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="goods_wrap">
+										<a href="#">
+											<div class="img_area">
+												<span class="def img"><img src="../static/img/test/@goods19.jpg" alt="상품이미지"></span>
+												<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+											</div>
+											<div class="info">
+												<div class="info_name">
+													<div class="brand">AIRWALK junior</div>
+													<div class="name">바람막이 점퍼</div>
+												</div>
+												<div class="info_price">
+													<div class="price_wrap">
+														<span class="del"><del>29,900</del>원</span>
+														<span class="price"><strong>29,900</strong>원</span>
+													</div>
+												</div>
+											</div>
+										</a>
+										<div class="over_content">
+											<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+											<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="goods_wrap">
+										<a href="#">
+											<div class="img_area">
+												<span class="def img"><img src="../static/img/test/@goods20.jpg" alt="상품이미지"></span>
+												<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+											</div>
+											<div class="info">
+												<div class="info_name">
+													<div class="brand">AIRWALK junior</div>
+													<div class="name">바람막이 점퍼</div>
+												</div>
+												<div class="info_price">
+													<div class="price_wrap">
+														<span class="del"><del>29,900</del>원</span>
+														<span class="price"><strong>29,900</strong>원</span>
+													</div>
+												</div>
+											</div>
+										</a>
+										<div class="over_content">
+											<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+											<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="goods_wrap">
+										<a href="#">
+											<div class="img_area">
+												<span class="def img"><img src="../static/img/test/@goods21.jpg" alt="상품이미지"></span>
+												<span class="over img"><img src="../static/img/test/@goods01_over.jpg" alt="상품이미지"></span>
+											</div>
+											<div class="info">
+												<div class="info_name">
+													<div class="brand">AIRWALK junior</div>
+													<div class="name">바람막이 점퍼</div>
+												</div>
+												<div class="info_price">
+													<div class="price_wrap">
+														<span class="del"><del>29,900</del>원</span>
+														<span class="price"><strong>29,900</strong>원</span>
+													</div>
+												</div>
+											</div>
+										</a>
+										<div class="over_content">
+											<button type="button" class="btn_preview"><span><i class="icon_preview">미리보기</i></span></button>
+											<button type="button" class="btn_like"><span><i class="icon_like">좋아요</i></span><span class="count">123</span></button>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //해시태그 01 -->
+
+					<!-- 해시태그 02 -->
+					<div class="tab-content" data-content="content">
+						#스테디셀러
+					</div>
+					<!-- //해시태그 02 -->
+
+					<!-- 해시태그 03 -->
+					<div class="tab-content" data-content="content">
+						#바람막이
+					</div>
+					<!-- //해시태그 03 -->
+
+					<!-- 해시태그 04 -->
+					<div class="tab-content" data-content="content">
+						#여친취향저격
+					</div>
+					<!-- //해시태그 04 -->
+
+					<!-- 해시태그 05 -->
+					<div class="tab-content" data-content="content">
+						#봄소풍가방
+					</div>
+					<!-- //해시태그 05 -->
+				</div>	
+			</div>
+		</div>
+		<!-- //HOT# -->
+
+		<!-- 오늘의 딜 & TIME SALE -->
+		<div class="main_contents_wrap ">
+			<div class="inner_align clear">
+				<!-- 오늘의 딜 -->
+				<div class="main_deal">
+					<h2 class="roof-title line"><span><img src="../static/img/icon/icon_main_deal.png" alt="오늘의 딜"> 오늘의 딜</span></h2>
+					<div class="main_deal_box">
+						<a href="#">
+							<div class="img"><img src="../static/img/banner/banner_main_deal.jpg" alt="오늘의 딜 배너 이미지"></div><!-- [D] size:370x350 -->
+							<div class="info">
+								<div class="info_wrap">
+									<span class="point_tag btn-point">마감임박</span>
+									<p class="ment point-color">신상품 입고!</p>
+									<p class="subment">트레이닝 / 캐주얼 봄나들이룩 제안!</p>
+									<div class="price_wrap">
+										<label class="point-color">AWK가</label>
+										<span class="del"><del>29,900</del>원</span>
+										<span class="price point-color"><strong>29,900</strong>원</span>
+									</div>
+								</div>
+								<div class="buy_info">
+									<span class="line_tag">무료배송</span><span class="buy_count">328개 구매</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- //오늘의 딜 -->
+				<!-- TIME SALE -->
+				<div class="main_timesale">
+					<h2 class="roof-title line"><span>TIME SALE</span></h2>
+					<div class="main_timesale_box">
+						<a href="#">
+							<div class="img"><img src="../static/img/banner/banner_main_timesale.jpg" alt="TIME SALE 배너 이미지"></div><!-- [D] size:460x350 -->
+							<div class="info">
+								<div class="time"><i class="icon_main_timesale"></i><span class="countdown">23:05:48</span></div>
+								<div class="goods_info clear">
+									<div class="name_wrap">
+										<p class="brand">AIRWALK junior</p>
+										<p class="name">여름 신상! 바람막이 점퍼</p>
+									</div>
+									<div class="price_wrap">
+										<span class="del"><del>29,900</del>원</span>
+										<span class="price"><strong>29,900</strong>원</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- //TIME SALE -->
+			</div>
+		</div>
+		<!-- //오늘의 딜 & TIME SALE -->
+
+		<!-- AIRWALK BRAND -->
+		<div class="main_contents_wrap main_brand">
+			<div class="inner_align">
+				<h2 class="roof-title"><span>AIRWALK BRAND</span></h2>
+				<div class="main_brand_tab tab_type02" data-ui="TabMenu">
+					<div class="tab-menu">
+						<button type="button" data-content="menu" class="active" title="선택됨"><span>AWK kids</span></button>
+						<button type="button" data-content="menu"><span>AIRWALK junior</span></button>
+						<button type="button" data-content="menu"><span>AWK</span></button>
+						<button type="button" data-content="menu"><span>TOMSTORY</span></button>
+					</div>
+					<!-- AWK kids -->
+					<div class="tab-content active" data-content="content">
+						<div class="main_brand_tem01">
+							<div class="goods">
+								<ul>
+									<li>
+										<div class="goods_wrap_horizon">
+											<a href="#">
+												<div class="img_area"><img src="../static/img/test/@goods22.jpg" alt="상품이미지"></div>
+												<div class="info">
+													<div class="brand">AIRWALK junior</div>
+													<div class="name">바람막이 점퍼</div>
+													<div class="price_wrap">
+														<span class="del"><del>29,900</del>원</span>
+														<span class="price"><strong>29,900</strong>원</span>
+													</div>
+												</div>
+											</a>
+										</div>
+									</li>
+									<li>
+										<div class="goods_wrap_horizon">
+											<a href="#">
+												<div class="img_area"><img src="../static/img/test/@goods23.jpg" alt="상품이미지"></div>
+												<div class="info">
+													<div class="brand">AIRWALK junior</div>
+													<div class="name">바람막이 점퍼</div>
+													<div class="price_wrap">
+														<span class="del"><del>29,900</del>원</span>
+														<span class="price"><strong>29,900</strong>원</span>
+													</div>
+												</div>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="banner">
+								<a href="#"><img src="../static/img/banner/banner_main_brand.jpg" alt="BRAND 배너 이미지"></a><!-- [D] size:370x443 -->
+							</div>
+							<div class="goods">
+								<ul>
+									<li>
+										<div class="goods_wrap_horizon">
+											<a href="#">
+												<div class="img_area"><img src="../static/img/test/@goods24.jpg" alt="상품이미지"></div>
+												<div class="info">
+													<div class="brand">AIRWALK junior</div>
+													<div class="name">바람막이 점퍼</div>
+													<div class="price_wrap">
+														<span class="del"><del>29,900</del>원</span>
+														<span class="price"><strong>29,900</strong>원</span>
+													</div>
+												</div>
+											</a>
+										</div>
+									</li>
+									<li>
+										<div class="goods_wrap_horizon">
+											<a href="#">
+												<div class="img_area"><img src="../static/img/test/@goods25.jpg" alt="상품이미지"></div>
+												<div class="info">
+													<div class="brand">AIRWALK junior</div>
+													<div class="name">바람막이 점퍼</div>
+													<div class="price_wrap">
+														<span class="del"><del>29,900</del>원</span>
+														<span class="price"><strong>29,900</strong>원</span>
+													</div>
+												</div>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- //AWK kids -->
+
+					<!-- AIRWALK junior -->
+					<div class="tab-content" data-content="content">
+						AIRWALK junior<!-- [D] AWK kids 컨텐츠와 구조 동일 -->
+					</div>
+					<!-- //AIRWALK junior -->
+
+					<!-- AWK -->
+					<div class="tab-content" data-content="content">
+						AWK<!-- [D] AWK kids 컨텐츠와 구조 동일 -->
+					</div>
+					<!-- //AWK -->
+
+					<!-- TOMSTORY -->
+					<div class="tab-content" data-content="content">
+						TOMSTORY<!-- [D] AWK kids 컨텐츠와 구조 동일 -->
+					</div>
+					<!-- //TOMSTORY -->
+				</div>
+			</div>
+		</div>
+		<!-- //AIRWALK BRAND -->
+
+		<!-- 기획전 배너 -->
+		<div class="main_contents_wrap main_promotion">
+			<div class="inner_align">
+				<!-- 템플릿01 (배너 1개) -->
+				<ul class="clear hide"><!-- [D] .hide 제거 후 사용 -->
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo06.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size: 1200x280 -->
+				</ul>
+				<!-- //템플릿01 -->
+
+				<!-- 템플릿02 (배너 2개) -->
+				<ul class="ea2 clear hide"><!-- [D] .hide 제거 후 사용 -->
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo04.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size: 700x360 -->
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo05.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size: 485x360 -->
+				</ul>
+				<!-- //템플릿02 -->
+
+				<!-- 템플릿03 (배너 3개) -->
+				<ul class="ea3 clear">
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo01.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size:500x360 -->
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo02.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size:335x360 -->
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo03.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size:335x360 -->
+				</ul>
+				<!-- //템플릿03 -->
+				
+				<!-- 템플릿04 (배너 4개) -->
+				<ul class="ea4 clear hide"><!-- [D] .hide 제거 후 사용 -->
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo07.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size: 592x250 -->
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo08.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size: 592x250 -->
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo09.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size: 592x250 -->
+					<li><a href="#"><img src="../static/img/banner/banner_main_promo10.jpg" alt="기획전 배너 이미지"></a></li><!-- [D] size: 592x250 -->
+				</ul>
+				<!-- //템플릿04 -->
+			</div>
+		</div>
+		<!-- //기획전 배너 -->
+
+		<!-- INSTAGRAM & SEASON VOD -->
+		<div class="main_contents_wrap insta_with_vod">
+			<div class="inner_align clear">
+				<!-- INSTAGRAM -->
+				<div class="main_instagram">
+					<h2 class="main_title"><img src="../static/img/icon/icon_main_insta.png" alt="INSTAGRAM"> INSTAGRAM</h2>
+					<div class="main_insta_list with-btn">
+						<ul class="slider">
+							<!-- 슬라이드 단위 -->
+							<li>
+								<ul class="tem">
+									<li><a href="#"><img src="../static/img/test/@main_insta01.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta02.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta03.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta04.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta05.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta06.jpg" alt="인스타그램 이미지"></a></li>
+								</ul>
+							</li>
+							<!-- //슬라이드 단위 -->
+							<li>
+								<ul class="tem">
+									<li><a href="#"><img src="../static/img/test/@main_insta01.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta02.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta03.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta04.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta05.jpg" alt="인스타그램 이미지"></a></li>
+									<li><a href="#"><img src="../static/img/test/@main_insta06.jpg" alt="인스타그램 이미지"></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //INSTAGRAM -->
+				<!-- SEASON VOD -->
+				<div class="main_vod">
+					<h2 class="main_title"><img src="../static/img/icon/icon_main_vod.png" alt="SEASON VOD"> SEASON VOD</h2>
+					<div class="main_vod_box">
+						<div class="vod">
+							<iframe width="560" height="410" src="https://www.youtube.com/embed/MZXi7Dx8G-Q?autohide=1&modestbranding=1&rel=0&loop=1" title="SEASON VOD" allowfullscreen></iframe>
+							<!-- <img src="../static/img/test/@main_vod.jpg" alt=""> -->
+						</div>
+						<!-- <button type="button" class="btn_play"><span>재생</span></button> -->
+					</div>
+				</div>
+				<!-- //SEASON VOD -->
+			</div>
+		</div>
+		<!-- //INSTAGRAM & SEASON VOD -->
+
+		<!-- COMMUNITY -->
+		<div class="main_contents_wrap main_community">
+			<div class="inner_align">
+				<h2 class="roof-title"><span>COMMUNITY</span></h2>
+				<div class="tem">
+					<ul>
+						<li class="community01">
+							<a href="#">
+								<div class="img"><img src="../static/img/banner/banner_main_commu01.jpg" alt="COMMUNITY 배너 이미지"></div><!-- [D] size:365x228 -->
+								<p class="name">LOOKBOOK</p>
+								<p class="subject">2017 SPRING AIRWALK COLLECTION</p>
+							</a>
+						</li>
+						<li class="community02">
+							<a href="#">
+								<div class="img"><img src="../static/img/banner/banner_main_commu02.jpg" alt="COMMUNITY 배너 이미지"></div><!-- [D] size:365x327 -->
+								<p class="name">도전! AWK 모델</p>
+								<p class="subject">봄 아우터 모델 소윤!</p>
+							</a>
+						</li>
+						<li class="community03">
+							<a href="#">
+								<div class="img"><img src="../static/img/banner/banner_main_commu03.jpg" alt="COMMUNITY 배너 이미지"></div><!-- [D] size:365x185 -->
+								<p class="name">MAGAZINE</p>
+								<p class="subject">바람막이 점퍼 본격 방수원단 탐험기!</p>
+							</a>
+						</li>
+						<li class="community04">
+							<a href="#">
+								<div class="img"><img src="../static/img/banner/banner_main_commu04.jpg" alt="COMMUNITY 배너 이미지"></div><!-- [D] size:365x368 -->
+								<p class="name">정보 공유해요~</p>
+								<p class="subject">어린이날 가족과 함께 꼭 가볼만한 레스토랑</p>
+							</a>
+						</li>
+						<li class="community05">
+							<a href="#">
+								<div class="img"><img src="../static/img/banner/banner_main_commu05.jpg" alt="COMMUNITY 배너 이미지"></div><!-- [D] size:365x325 -->
+								<p class="name">EVENT</p>
+								<p class="subject">첫 구매 시 적립금 1만원 지급</p>
+							</a>
+						</li>
+						<li class="community06">
+							<a href="#">
+								<div class="img"><img src="../static/img/banner/banner_main_commu06.jpg" alt="COMMUNITY 배너 이미지"></div><!-- [D] size:365x228 -->
+								<p class="name">서포터즈</p>
+								<p class="subject">날씬해 보이는 래쉬가드 하나 장만해 볼까요~</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- //COMMUNITY -->
+	</div>
+	<!-- //컨텐츠 영역 -->
+
+	<!-- 사이드바 영역 -->
+	<aside id="sidebar" class="on">
+		<div class="sidebar_wrap">
+			<button type="button" class="sidebar_control"><span><i class="icon_sidebar_arr"></i></span><span class="txt">CLOSE</span></button>
+			<div class="sidebar_menu">
+				<ul>
+					<li>
+						<a href="#">
+							<i class="icon_sidebar_mypage">마이페이지</i>
+							<span class="name">마이페이지</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="icon_sidebar_cart">장바구니</i>
+							<span class="name">장바구니</span><span class="count">55</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="icon_sidebar_like">좋아요</i>
+							<span class="name">좋아요</span><span class="count">200</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="icon_sidebar_recent">최근 본 상품</i>
+							<span class="name">최근 본 상품</span>
+						</a>
+					</li>
+				</ul>
+
+				<div class="sidebar_recent_view">
+					<ul class="slide">
+						<li>
+							<div><a href="#"><img src="../static/img/test/@sidebar_goods01.jpg" alt="최근 본 상품"></a></div>
+							<div><a href="#"><img src="../static/img/test/@sidebar_goods02.jpg" alt="최근 본 상품"></a></div>
+							<div><a href="#"><img src="../static/img/test/@sidebar_goods03.jpg" alt="최근 본 상품"></a></div>
+						</li>
+						<li>
+							<div><a href="#"><img src="../static/img/test/@sidebar_goods01.jpg" alt="최근 본 상품"></a></div>
+							<div><a href="#"><img src="../static/img/test/@sidebar_goods02.jpg" alt="최근 본 상품"></a></div>
+							<div><a href="#"><img src="../static/img/test/@sidebar_goods03.jpg" alt="최근 본 상품"></a></div>
+						</li>
+						<li>
+							<div><a href="#"><img src="../static/img/test/@sidebar_goods01.jpg" alt="최근 본 상품"></a></div>
+							<div><a href="#"><img src="../static/img/test/@sidebar_goods02.jpg" alt="최근 본 상품"></a></div>
+							<div><a href="#"><img src="../static/img/test/@sidebar_goods03.jpg" alt="최근 본 상품"></a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="sidebar_banner">
+				<ul>
+					<li><a href="#"><img src="../static/img/banner/banner_sidebar01.jpg" alt="AIRWALK JUNIOR"></a></li>
+					<li><a href="#"><img src="../static/img/banner/banner_sidebar02.jpg" alt="LOOKBOOK"></a></li>
+				</ul>
+			</div>
+
+			<button type="button" class="sidebar_top_btn"><span>TOP</span></button>
+		</div>
+	</aside>
+	<!-- //사이드바 영역 -->
+
+	<!-- 풋터 영역 -->
+	<footer id="footer">
+		<div class="footer_top">
+			<div class="inner_align clear">
+				<ul class="footer_menu">
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">매장안내</a></li>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">제휴/입점상담</a></li>
+					<li><a href="#">고객센터</a></li>
+				</ul>
+				<ul class="sns_link">
+					<li><a href="#" target="_blank"><i class="icon_footer_sns01">facebook</i></a></li>
+					<li><a href="#" target="_blank"><i class="icon_footer_sns02">instagram</i></a></li>
+					<li><a href="#" target="_blank"><i class="icon_footer_sns03">blog</i></a></li>
+					<li><a href="#" target="_blank"><i class="icon_footer_sns04">youtube</i></a></li>
+					<li><a href="#" target="_blank"><i class="icon_footer_sns05">kakao story</i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer_info">
+			<div class="inner_align clear">
+				<div class="company_info">
+					<address>
+						<span><strong>(주) 제이씨컴퍼니</strong></span>
+						<span>주소: 서울시 동대문구 장안동 430-18 규정 B/D</span><br>
+						<span>대표이사: 000</span>
+						<span>사업자등록번호: 000-00-000</span>
+						<span>통신판매업신고: 000-000-0000</span>
+						<span><a href="#" target="_blank" class="btn">에스크로 서비스 가입확인</a></span>
+						<span><a href="#" target="_blank" class="btn">사업자 정보 확인</a></span><br>
+						<span>개인정보관리책임자: 000</span>
+						<span>고객센터: 00-000-0000</span>
+						<span>FAX: 00-000-0000</span>
+						<span>E-MAIL: 0000&#64;awkmall.com</span>
+					</address>
+					<p class="copyright">copyright &copy; 2017 JCCOMPANY &amp; TOMSTORY All Rights Reserved </p>
+					<div class="app_link">
+						<a href="#" target="_blank"><img src="../static/img/icon/icon_footer_app01.png" alt="AppStore"></a>
+						<a href="#" target="_blank"><img src="../static/img/icon/icon_footer_app02.png" alt="Google Play"></a>
+					</div>
+				</div>
+				<div class="help_desk">
+					<p class="title">HELP DESK ?</p>
+					<p class="tel">02-2270-9177</p>
+					<p class="info">평일 10:00~17:00 (점심 12:00~13:00)<br>주말 및 공휴일 휴무</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- //풋터 영역 -->
+</div>
+<!-- //전체 -->
+
+<!-- 리스트 > 상품 미리보기 -->
+<div class="layer-dimm-wrap layer_goods_preview">
+	<div class="layer-inner">
+		<h2 class="layer-title">상품 미리보기</h2>
+		<button class="btn-close" type="button"><span>닫기</span></button>
+		<div class="layer-content">
+			
+			<div class="goods_info_area clear">
+				<!-- 상품 대표 이미지 -->
+				<div class="thumb_box">
+					<div class="big_thumb">
+						<ul class="thumb_list_big">
+							<li><img src="../static/img/test/@goods01_big.jpg" alt="상품 대표 썸네일"></li>
+							<li><img src="../static/img/test/@goods01_over.jpg" alt="상품 대표 썸네일"></li>
+						</ul>
+					</div>
+					<ul class="thumb_list_small clear">
+						<li><a data-slide-index="0" class="active"><img src="../static/img/test/@goods01_big.jpg" alt="상품 대표 썸네일"></a></li>
+						<li><a data-slide-index="1"><img src="../static/img/test/@goods01_over.jpg" alt="상품 대표 썸네일"></a></li>
+					</ul>
+				</div>
+				<!-- //상품 대표 이미지 -->
+
+				<!-- 상품 정보 -->
+				<div class="specification">
+					<!-- 기본정보 -->
+					<div class="basic_info">
+						<p class="brand_nm">AWK kids</p>
+						<p class="goods_nm">에어워크 바람막이 점퍼</p>
+						<ul class="goods_summary_list">
+							<li>
+								<label>품번</label>
+								<div>ISD1213452225DS</div>
+							</li>
+							<li class="price">
+								<label>판매가</label>
+								<div class="price_wrap">
+									<span class="price point-color"><strong>29,900</strong>원</span>
+									<span class="del"><del>29,900</del>원</span>
+									<span class="sale_mark"><strong>20</strong>%</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- //기본정보 -->
+
+					<!-- 옵션 -->
+					<div class="box_opt">
+						<h2>상품의 색상,사이즈,수량</h2>
+
+						<div class="opt_color_wrap">
+							<div class="opt_selected_txt"><label>색상</label><span class="selected_color">PINK</span></div>
+							<ul class="color_img">
+								<li class="on"><a href="javascript:;"><img src="../static/img/test/@goods01_big.jpg" alt="PINK"></a></li><!-- [D] img태그의 alt속성에 컬러이름을 넣어주세요. -->
+								<li><a href="javascript:;"><img src="../static/img/test/@goods01_over.jpg" alt="BLACK"></a></li>
+								<li><a href="javascript:;"><img src="../static/img/test/@goods01_big.jpg" alt="WHITE"></a></li>
+							</ul>
+						</div>
+
+						<div class="opt_size_wrap">
+							<div class="opt_selected_txt"><label>사이즈</label><span class="selected_size">XS</span></div>
+							<ul class="check_on_label">
+								<li>
+									<input type="radio" name="optSize_pop" id="opt_size_pop01" checked>
+									<label for="opt_size_pop01">XS</label>
+								</li>
+								<li>
+									<input type="radio" name="optSize_pop" id="opt_size_pop02" disabled>
+									<label for="opt_size_pop02">S</label>
+								</li>
+								<li>
+									<input type="radio" name="optSize_pop" id="opt_size_pop03">
+									<label for="opt_size_pop03">M</label>
+								</li>
+								<li>
+									<input type="radio" name="optSize_pop" id="opt_size_pop04">
+									<label for="opt_size_pop04">L</label>
+								</li>
+								<li>
+									<input type="radio" name="optSize_pop" id="opt_size_pop05">
+									<label for="opt_size_pop05">XL</label>
+								</li>
+								<li>
+									<input type="radio" name="optSize_pop" id="opt_size_pop06">
+									<label for="opt_size_pop06">XXL</label>
+								</li>
+								<li>
+									<input type="radio" name="optSize_pop" id="opt_size_pop07">
+									<label for="opt_size_pop07">XXXL</label>
+								</li>
+							</ul>
+						</div>
+
+						<div class="quantity">
+							<input type="text" value="1" readonly="">
+							<button class="plus"></button>
+							<button class="minus"></button>
+						</div>
+					</div>
+					<!-- //옵션 -->
+
+					<!-- 수령방법 -->
+					<div class="box_delivery">
+						<h2>상품수령방법 선택 - 택배발송,당일수령,매장픽업</h2>
+						<div class="delivery_type" data-ui="TabMenu">
+							<div class="type">
+								<div class="radio">
+									<input type="radio" name="select_deliveryType_pop" id="deliver_typeA_pop" checked="">
+									<label for="deliver_typeA_pop">택배수령</label>
+								</div>
+								<div class="radio">
+									<input type="radio" name="select_deliveryType_pop" id="deliver_typeB_pop">
+									<label for="deliver_typeB_pop">매장픽업</label>
+								</div>
+								<div class="radio">
+									<input type="radio" name="select_deliveryType_pop" id="deliver_typeC_pop">
+									<label for="deliver_typeC_pop">당일수령</label>
+								</div>
+							</div>
+
+							<div class="store_select">
+								<button type="button" class="btn_shop_pickup"><span>매장선택</span></button><!-- //[D] 당일수령 선택시 노출 -->
+								<!-- <button type="button" class="btn_shop_today"><span>매장선택</span></button> --><!-- //[D] 매장픽업 선택시 노출 -->
+								<span>강남(매장)</span>
+							</div><!-- //[D] 택배수령시 감춤 -->
+
+						</div>
+					</div>
+					<!-- //수령방법 -->
+
+					<!-- 구매정보 -->
+					<div class="box_price">
+						<h2>총 금액확인, 구매버튼, 장바구니버튼, 좋아요버튼</h2>
+						<div class="total"><label>TOTAL</label><span class="price point-color"><strong>510,000</strong>원</span></div>
+
+						<div class="buy_btn">
+							<ul>
+								<li class="wide"><a href="#" class="buy_now btn-point">바로구매</a></li>
+								<li><button type="button"><span><i class="icon_cart">장바구니</i></span></button></li>
+								<li><button type="button" class="btn_like"><span><i class="icon_like">좋아요</i> <span class="count">46</span></span></button></li>
+							</ul>
+						</div>
+					</div>
+					<!-- //구매정보 -->
+
+					<!-- 기타정보 -->
+					<div class="etc_info clear">
+						<!-- 네이버페이 -->
+						<div class="npay">
+							<img src="../static/img/test/@npay.jpg" alt="네이버페이 임시 이미지">
+						</div>
+						<!-- //네이버페이 -->
+					</div>
+					<!-- //기타정보 -->
+				</div>
+				<!-- //상품 정보 -->
+			</div>
+			
+		</div><!-- //.layer-content -->
+	</div>
+</div>
+<!-- //리스트 > 상품 미리보기 -->
+</body>
+</html>

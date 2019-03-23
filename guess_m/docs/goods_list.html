@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="robots" content="noindex,nofollow">
+	<title>GUESS m | List</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+	<link rel="stylesheet" type="text/css" href="../static/css/common.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/component.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/content.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../static/img/common/favicon_android.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../static/img/common/favicon_apple.png">
+	<script src="../static/js/jquery-1.12.0.min.js"></script>
+	<script src="../static/js/ui.js"></script>
+</head>
+<body class="in_list">
+<a href="#content" class="skip">Skip to Content</a>
+
+<!-- Header -->
+<header id="header">
+	<div class="hd_wrp">
+		<h1 class="logo"><a href=""><img src="../static/img/common/h1_logo.png" alt="GUESS"></a></h1>
+		<h2 class="hd_title">WOMEN</h2>
+		<a href="javascript:history.back();" class="btn_back">뒤로가기</a>
+		<div class="utilmenu">
+			<a href="#popup-sch"><i class="icon-search">검색</i></a>
+			<a href=""><i class="icon-cart">장바구니<span class="count">7</span></i></a>
+		</div>
+	</div>
+
+	<!-- 검색팝업 -->
+	<div id="popup-sch" class="layers sch_wrp">
+		<div class="inner">
+			<div class="sch_frm">
+				<div class="sch_box">
+					<input type="text" class="search" placeholder="검색어를 입력하세요" title="검색어를 입력하세요">
+					<button type="button" class="btn_del">삭제</button><!-- [D] 검색어 입력시 노출되고, 클릭하면 검색어 인풋 리셋 -->
+					<button type="submit" class="btn_sch"><span class="icon-search">검색</span></button>
+				</div>
+				<div class="layer-close"><button type="button" class="btn-close is-large">닫기</button></div>
+			</div>
+			<div class="sch_tabs" data-ui="TabMenu">
+				<div class="tabs-type-basic">
+					<button type="button" data-content="menu" class="active" title="선택됨"><span>최근검색어</span></button>
+					<button type="button" data-content="menu"><span>인기검색어</span></button>
+				</div>
+				<!-- 최근검색어 -->
+				<div class="active" data-content="content">
+					<div class="sch_recent">
+						<ul class="list">
+							<li><a href="">데님점퍼</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+							<li><a href="">로고 티셔츠</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+							<li><a href="">부츠컷 진</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+							<li><a href="">수지데님</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+							<li><a href="">백팩</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+						</ul>
+						<div class="del_all"><button type="button" class="btn-regular is-line-blk">검색어 전체삭제</button></div>
+					</div>
+				</div>
+				<!-- //최근검색어 -->
+				<!-- 인기검색어 -->
+				<div data-content="content">
+					<div class="sch_popular">
+						<ul class="list">
+							<li><span class="num point-color">1</span><a href="">데님점퍼</a></li>
+							<li><span class="num point-color">2</span><a href="">로고 티셔츠</a></li>
+							<li><span class="num point-color">3</span><a href="">부츠컷 진</a></li>
+							<li><span class="num">4</span><a href="">수지데님</a></li>
+							<li><span class="num">5</span><a href="">백팩</a></li>
+							<li><span class="num">6</span><a href="">항공점퍼</a></li>
+							<li><span class="num">7</span><a href="">롱기장 티셔츠</a></li>
+							<li><span class="num">8</span><a href="">맨투맨 티셔츠</a></li>
+							<li><span class="num">9</span><a href="">군모</a></li>
+							<li><span class="num">10</span><a href="">스냅백</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- //인기검색어 -->
+			</div>
+		</div>
+	</div>
+	<!-- //검색팝업 -->
+
+	<!-- LNB -->
+	<nav id="lnb_wrp">
+		<div class="lnb_container">
+			<div class="lnb">
+
+				<div class="login_area">
+					<!-- 로그인 안 한 경우 노출 -->
+					<a href="" class="btn-small is-point-blk">로그인</a>
+					<!-- 로그인 한 경우 노출 -->
+					<div class="clear">
+						<span class="ment pull-left"><strong>홍길동</strong>님 반갑습니다.</span>
+						<a href="" class="btn-small is-line pull-right">로그아웃</a>
+					</div>
+				</div>
+
+				<div class="quick_area">
+					<ul class="quick_menu clear">
+						<li><a href=""><i class="icon-lnb-mypage"></i><p class="tit">마이페이지</p></a></li>
+						<li><a href=""><i class="icon-lnb-order"></i><p class="tit">주문배송</p></a></li>
+						<li><a href=""><i class="icon-lnb-coupon"></i><p class="tit">쿠폰함</p></a></li>
+					</ul>
+					<div class="banner"><a href=""><img src="../static/img/banner/@lnb_banner01.jpg" alt="프로모션배너"></a></div>
+				</div>
+
+				<div class="gnb_area">
+					<ul class="gnb">
+						<li>
+							<a href="javascript:;" class="gnbmenu">WOMEN</a>
+							<ul class="sub">
+								<li><a href="../goods/goods_list.php">ALL</a></li>
+								<li><a href="../goods/goods_list.php">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">MEN</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">DENIM</a>
+							<ul class="sub">
+								<li><a href="">WOMEN</a></li>
+								<li><a href="">MEN</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">BAG&amp;SHOES</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">UNDERWEAR</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu point-color">SALE</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">IT’S GUESS</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="cs_area">
+					<ul class="cs_menu">
+						<li><a href="">매장안내</a></li>
+						<li><a href="">고객센터</a></li>
+					</ul>
+					<div class="banner"><a href=""><img src="../static/img/banner/@lnb_banner01.jpg" alt="프로모션배너"></a></div>
+					<div class="link">
+						<a href="http://www.guesstheday.co.kr/#/main.html" target="_blank"><i class="icon-guesstheday">GUESS THE DAY</i></a>
+						<a href="https://blog.naver.com/guess_korea" target="_blank"><i class="icon-blog">NAVER BLOG</i></a>
+					</div>
+				</div>
+
+			</div>
+			<a href="javascript:;" class="btn_lnb_cls">닫기</a>
+		</div>
+	</nav>
+	<!-- //LNB -->
+</header>
+<!-- //Header -->
+
+<!-- Page -->
+<div id="page">
+	<div class="list_nav">
+		<div class="swipe_wrp">
+			<ul>
+				<li class="active"><a href="">ALL</a></li>
+				<li><a href="">COATS/JACKETS</a></li>
+				<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+				<li><a href="">DRESS/SKIRT</a></li>
+				<li><a href="">PANTS/SHORTS</a></li>
+				<li><a href="">DENIM</a></li>
+				<li><a href="">ACC</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Content -->
+	<div id="content">
+		<div class="best-goods">
+			<h3 class="title">WOMEN BEST</h3>
+			<ul>
+				<li>
+					<div class="thumbnail">
+						<a>
+							<div class="image"><img class="already" src="../static/img/test/@goods_330_01.jpg" alt="상품 썸네일"></div>
+							<div class="thumbnail-info">
+								<div class="title">여성 플라워 엠브로이더리 스트라이프 셔츠 여성 플라워 엠브로이더리 스트라이프 셔츠</div>
+								<div class="price clear">
+									<div class="pull-left"><strong>98,600</strong></div>
+									<div class="pull-right"><span class="discount">50%</span></div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="thumbnail">
+						<a>
+							<div class="image"><img class="already" src="../static/img/test/@goods_330_02.jpg" alt="상품 썸네일"></div>
+							<div class="thumbnail-info">
+								<div class="title">여성 플라워 엠브로이더리 스트라이프 셔츠 여성 플라워 엠브로이더리 스트라이프 셔츠</div>
+								<div class="price clear">
+									<div class="pull-left"><strong>250,600</strong></div>
+									<div class="pull-right"><span class="discount">50%</span></div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="thumbnail">
+						<a>
+							<div class="image"><img class="already" src="../static/img/test/@goods_330_03.jpg" alt="상품 썸네일"></div>
+							<div class="thumbnail-info">
+								<div class="title">여성 플라워 엠브로이더리 스트라이프 셔츠 여성 플라워 엠브로이더리 스트라이프 셔츠</div>
+								<div class="price clear">
+									<div class="pull-left"><strong>150,600</strong></div>
+									<div class="pull-right"><span class="discount">50%</span></div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="thumbnail">
+						<a>
+							<div class="image"><img class="already" src="../static/img/test/@goods_330_04.jpg" alt="상품 썸네일"></div>
+							<div class="thumbnail-info">
+								<div class="title">여성 플라워 엠브로이더리 스트라이프 셔츠 여성 플라워 엠브로이더리 스트라이프 셔츠</div>
+								<div class="price clear">
+									<div class="pull-left"><strong>120,600</strong></div>
+									<div class="pull-right"><span class="discount">50%</span></div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="list-head">
+			<div class="filter"><a href="#popup-goods-filter" class="btn-filter"><i class="icon-filter"></i> FILTER</a></div>
+			<div class="select">
+				<select>
+					<option>신상품</option>
+					<option>인기순</option>
+					<option>가격순</option>
+				</select>
+			</div>
+			<div class="option-box dir-flow">
+				<label><input type="checkbox"><span><i class="icon-quick-delivery"></i> (당일배송)</span></label>
+			</div>
+		</div>
+		<p class="goods-total-ea">총 <strong>250</strong>개의 상품이 있습니다.</p>
+
+		<ul class="goods-list">
+			<li>
+				<div class="thumbnail">
+					<div class="like"><button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>12</span></button></div>
+					<a href="goods_detail.php">
+						<div class="image"><img class="already" src="../static/img/test/@goods_330_01.jpg" alt="상품 썸네일"></div>
+						<div class="thumbnail-info">
+							<div class="title">울트라 앵클스키니</div>
+							<div class="price clear">
+								<div class="pull-left"><strong>98,600</strong> <del>108,000</del></div>
+								<div class="pull-right"><span class="discount">75%</span></div>
+							</div>
+							<div class="icons clear">
+								<div class="pull-left">
+									<img src="../static/img/icon/icon_new.gif" alt="아이콘 대체 텍스트 입력해주세요">
+									<img src="../static/img/icon/icon_coupon.gif" alt="아이콘 대체 텍스트 입력해주세요">
+								</div>
+								<div class="pull-right"><i class="icon-quick-delivery">당일배송</i></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="like"><button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>2</span></button></div>
+					<a>
+						<div class="image"><img class="already" src="../static/img/test/@goods_330_02.jpg" alt="상품 썸네일"></div>
+						<div class="thumbnail-info">
+							<div class="title">여성 SUZY DENIM D튼 비트 구제 여성 캐시미어 코트</div>
+							<div class="price clear">
+								<div class="pull-left"><strong>198,600</strong> <del>228,000</del></div>
+								<div class="pull-right"><span class="discount">55%</span></div>
+							</div>
+							<div class="icons clear">
+								<div class="pull-left">
+									<img src="../static/img/icon/icon_coupon.gif" alt="아이콘 대체 텍스트 입력해주세요">
+								</div>
+								<div class="pull-right"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="like"><button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>32</span></button></div>
+					<a>
+						<div class="image"><img class="already" src="../static/img/test/@goods_330_03.jpg" alt="상품 썸네일"></div>
+						<div class="thumbnail-info">
+							<div class="title">여성 SUZY DENIM 슬림붓컷</div>
+							<div class="price clear">
+								<div class="pull-left"><strong>98,600</strong> <del>108,000</del></div>
+								<div class="pull-right"><span class="discount">75%</span></div>
+							</div>
+							<div class="icons clear">
+								<div class="pull-left">
+									<img src="../static/img/icon/icon_coupon.gif" alt="아이콘 대체 텍스트 입력해주세요">
+								</div>
+								<div class="pull-right"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="like"><button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>23</span></button></div>
+					<a>
+						<div class="image"><img class="already" src="../static/img/test/@goods_330_04.jpg" alt="상품 썸네일"></div>
+						<div class="thumbnail-info">
+							<div class="title">남녀공용 와펜 기모 M2M</div>
+							<div class="price clear">
+								<div class="pull-left"><strong>250,600</strong> <del>358,000</del></div>
+								<div class="pull-right"><span class="discount">50%</span></div>
+							</div>
+							<div class="icons clear">
+								<div class="pull-left">
+									<img src="../static/img/icon/icon_new.gif" alt="아이콘 대체 텍스트 입력해주세요">
+								</div>
+								<div class="pull-right"><i class="icon-quick-delivery">당일배송</i></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="like"><button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>75</span></button></div>
+					<a>
+						<div class="image"><img class="already" src="../static/img/test/@goods_330_05.jpg" alt="상품 썸네일"></div>
+						<div class="thumbnail-info">
+							<div class="title">울트라 앵클스키니</div>
+							<div class="price clear">
+								<div class="pull-left"><strong>98,600</strong> <del>108,000</del></div>
+								<div class="pull-right"><span class="discount">75%</span></div>
+							</div>
+							<div class="icons clear">
+								<div class="pull-left">
+									<img src="../static/img/icon/icon_new.gif" alt="아이콘 대체 텍스트 입력해주세요">
+									<img src="../static/img/icon/icon_coupon.gif" alt="아이콘 대체 텍스트 입력해주세요">
+								</div>
+								<div class="pull-right"><i class="icon-quick-delivery">당일배송</i></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="like"><button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>1</span></button></div>
+					<a>
+						<div class="image"><img class="already" src="../static/img/test/@goods_330_06.jpg" alt="상품 썸네일"></div>
+						<div class="thumbnail-info">
+							<div class="title">여성 SUZY DENIM D튼 비트 구제 여성 캐시미어 코트</div>
+							<div class="price clear">
+								<div class="pull-left"><strong>198,600</strong> <del>228,000</del></div>
+								<div class="pull-right"><span class="discount">55%</span></div>
+							</div>
+							<div class="icons clear">
+								<div class="pull-left">
+									<img src="../static/img/icon/icon_coupon.gif" alt="아이콘 대체 텍스트 입력해주세요">
+								</div>
+								<div class="pull-right"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="like"><button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>11</span></button></div>
+					<a>
+						<div class="image"><img class="already" src="../static/img/test/@goods_330_07.jpg" alt="상품 썸네일"></div>
+						<div class="thumbnail-info">
+							<div class="title">여성 SUZY DENIM 슬림붓컷</div>
+							<div class="price clear">
+								<div class="pull-left"><strong>98,600</strong> <del>108,000</del></div>
+								<div class="pull-right"><span class="discount">75%</span></div>
+							</div>
+							<div class="icons clear">
+								<div class="pull-left">
+									<img src="../static/img/icon/icon_coupon.gif" alt="아이콘 대체 텍스트 입력해주세요">
+								</div>
+								<div class="pull-right"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="like"><button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>876</span></button></div>
+					<a>
+						<div class="image"><img class="already" src="../static/img/test/@goods_330_08.jpg" alt="상품 썸네일"></div>
+						<div class="thumbnail-info">
+							<div class="title">남녀공용 와펜 기모 M2M</div>
+							<div class="price clear">
+								<div class="pull-left"><strong>250,600</strong> <del>358,000</del></div>
+								<div class="pull-right"><span class="discount">50%</span></div>
+							</div>
+							<div class="icons clear">
+								<div class="pull-left">
+									<img src="../static/img/icon/icon_new.gif" alt="아이콘 대체 텍스트 입력해주세요">
+								</div>
+								<div class="pull-right"><i class="icon-quick-delivery">당일배송</i></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</li>
+		</ul>
+		<!-- //.goods-list -->
+
+		<a class="btn-more">더보기</a> <!-- [D] 더보기 터치시 .goods-list 의 li 태그가 늘어야 함. -->
+	</div>
+	<!-- //Content -->
+
+	<div class="layers type-button" id="popup-goods-filter">
+		<div class="layer-header"><strong>FILTER</strong></div>
+		<div class="layer-contents">
+			<div class="filter-wrap">
+				<dl class="filter-chk-size">
+					<dt>SIZE</dt>
+					<dd>
+						<div class="opt-size">
+							<div><input type="checkbox" name="opt_size" id="size80" value="80" checked=""><label for="size80">80</label></div>
+							<div><input type="checkbox" name="opt_size" id="size85" value="85"><label for="size85">85</label></div>
+							<div><input type="checkbox" name="opt_size" id="size90" value="90"><label for="size90">90</label></div>
+							<div><input type="checkbox" name="opt_size" id="size95" value="95"><label for="size95">95</label></div>
+							<div><input type="checkbox" name="opt_size" id="size100" value="100"><label for="size100">100</label></div>
+							<div><input type="checkbox" name="opt_size" id="size105" value="105"><label for="size105">105</label></div>
+							<div><input type="checkbox" name="opt_size" id="size110" value="110"><label for="size110">110</label></div>
+							<div><input type="checkbox" name="opt_size" id="size28" value="28"><label for="size28">28</label></div>
+							<div><input type="checkbox" name="opt_size" id="size29" value="29"><label for="size29">29</label></div>
+							<div><input type="checkbox" name="opt_size" id="size30" value="30"><label for="size30">30</label></div>
+							<div><input type="checkbox" name="opt_size" id="size31" value="31"><label for="size31">31</label></div>
+							<div><input type="checkbox" name="opt_size" id="size32" value="32"><label for="size32">32</label></div>
+							<div><input type="checkbox" name="opt_size" id="sizeXS" value="XS"><label for="sizeXS">XS</label></div>
+							<div><input type="checkbox" name="opt_size" id="sizeS" value="S"><label for="sizeS">S</label></div>
+							<div><input type="checkbox" name="opt_size" id="sizeM" value="M"><label for="sizeM">M</label></div>
+							<div><input type="checkbox" name="opt_size" id="sizeL" value="L"><label for="sizeL">L</label></div>
+							<div><input type="checkbox" name="opt_size" id="sizeXL" value="XL" disabled><label for="sizeXL">XL</label></div>
+						</div>
+					</dd>
+				</dl>
+				<dl class="filter-chk-color">
+					<dt>COLOR</dt>
+					<dd>
+						<div class="opt-colors">
+							<input type="checkbox" name="color_choice" id="color_opt1"><label class="tone-dark" style="background-color:#222222" for="color_opt1"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt2"><label class="tone-dark" style="background-color:#5d5d5d" for="color_opt2"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt3"><label class="tone-dark" style="background-color:#b2b2b2" for="color_opt3"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt4"><label class="tone-dark" style="background-color:#ffd0d0" for="color_opt4"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt5"><label class="tone-dark" style="background-color:#ff6a6b" for="color_opt5"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt6"><label class="tone-dark" style="background-color:#ff1d1e" for="color_opt6"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt7"><label class="tone-dark" style="background-color:#ff7e00" for="color_opt7"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt8"><label class="tone-dark" style="background-color:#ffde03" for="color_opt8"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt9"><label class="tone-dark" style="background-color:#9ad061" for="color_opt9"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt10"><label class="tone-dark" style="background-color:#397c59" for="color_opt10"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt11"><label class="tone-dark" style="background-color:#2f32b3" for="color_opt11"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt12"><label class="tone-dark" style="background-color:#162f67" for="color_opt12"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt13"><label class="tone-dark" style="background-color:#8c3cd1" for="color_opt13"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt16"><label class="tone-dark" style="background-color:#fe428e" for="color_opt16"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt17"><label class="tone-dark" style="background-color:#ffa8b9" for="color_opt17"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt18"><label class="tone-bright" style="background-color:#fffae8" for="color_opt18"></label> 
+							<input type="checkbox" name="color_choice" id="color_opt19"><label class="tone-bright" style="background-color:#fff" for="color_opt19"></label> 
+						</div>
+					</dd>
+				</dl>
+				<dl class="filter-chk-price">
+					<dt>PRICE</dt>
+					<dd>
+						<div class="option-box dir-flow">
+							<label><input type="radio" name="filter_price" checked><span>5만원 미만</span></label>
+							<label><input type="radio" name="filter_price"><span>6만원 ~ 10만원 미만</span></label>
+							<label><input type="radio" name="filter_price"><span>10만원 ~ 20만원 미만</span></label>
+							<label><input type="radio" name="filter_price"><span>20만원 ~ 30만원 미만</span></label>
+							<label><input type="radio" name="filter_price"><span>30만원 ~ 40만원 미만</span></label>
+							<label><input type="radio" name="filter_price"><span>50만원대 이상</span></label>
+						</div>
+						<div class="option-box dir-flow is-alone">
+							<label><input type="radio" name="filter_price"><span>금액 직접입력</span></label>
+							<div class="form-multi">
+								<input type="text" title="시작금액 입력" style="width:100px">
+								<div class="txt">~</div>
+								<input type="text" title="제한금액 입력" style="width:100px">
+							</div>
+						</div>
+					</dd>
+				</dl>
+				<dl class="filter-chk-state">
+					<dt>STATE</dt>
+					<dd>
+						<div class="option-box dir-flow clear">
+							<label><input type="checkbox" checked><span>세일상품 보기</span></label>
+							<label><input type="checkbox"><span>쿠폰적용 상품 보기</span></label>
+							<label><input type="checkbox"><span>품절상품 제외</span></label>
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<!-- //.filter-wrap -->
+		</div>
+		<ul class="area-button is-full two">
+			<li><a href="" class="btn-regular is-line-blk">RESET</a></li>
+			<li><a href="" class="btn-regular is-point">SEARCH</a></li>
+		</ul>
+		<div class="layer-close"><button type="button" class="btn-close is-large"><span>닫기</span></button></div>
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="ft_menu">
+			<li><a href="">회사소개</a></li>
+			<li><a href="">고객센터</a></li>
+			<li><a href="">매장안내</a></li>
+			<li><a href="">PC버전</a></li>
+		</ul>
+		<div class="ft_info">
+			<div class="link">
+				<a href="http://www.guesstheday.co.kr/#/main.html" target="_blank">GUESS THE DAY</a>
+				<a href="https://blog.naver.com/guess_korea" target="_blank">NAVER BLOG</a>
+			</div>
+			<div class="company_info active">
+				<a href="javascript:;" class="btn_view_info">게스홀딩스코리아유한회사 정보확인</a>
+				<div class="toggle_con">
+					<ul class="ft_menu">
+						<li><a href="">이용약관</a></li>
+						<li><a href="">개인정보취급방침</a></li>
+					</ul>
+					<div class="info_detail">
+						<p><span>게스홀딩스코리아유한회사</span><span>대표이사: 제임스윤영박</span></p>
+						<p><span>주소: 서울특별시 강남구 테혜란로 534 글라스 타워 28층</span></p>
+						<p><span>게스 대표번호: 080-001-2220 (평일 10:00 ~ 17:00,<br> 점심 12:00 ~ 13:00)</span><span>카카오톡 상담 : @게스코리아</span></p>
+						<p><span>사업자 등록번호: 211-87-83034</span></p>
+						<p><span>통신판매업 신고: 2013-서울강남-01681호</span></p>
+						<p class="copyright">COPYRIGHT (c) GUESSKOREA. ALL RIGHTS RESERVED.</p>
+						<p><span><a href="">에스크로 서비스 가입 확인</a></span><span><a href="">사업자정보확인</a></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="btn_top"><a href="#">맨위로</a></div>
+	</footer>
+	<!-- //Footer -->
+</div>
+<!-- //Page -->
+
+<!-- Toolbar -->
+<div id="toolbar">
+	<ul class="toolbar_menu">
+		<li><a href="javascript:;" class="btn_lnb_open"><i class="icon-toolbar-menu"></i><span class="tit">MENU</span></a></li>
+		<li><a href=""><i class="icon-toolbar-mypage"></i><span class="tit">MYPAGE</span></a></li><!-- [D] 해당페이지에서 active클래스 추가 -->
+		<li class="active"><a href=""><i class="icon-toolbar-home"></i><span class="tit">HOME</span></a></li><!-- [D] 해당페이지에서 active클래스 추가 -->
+		<li><a href="#popup-mypick" class="btn_MyLikeItems"><i class="icon-toolbar-like"></i><span class="tit">LIKE</span></a></li>
+		<li><a href="#popup-mypick" class="btn_todayHistory"><i class="icon-toolbar-history"></i><span class="tit">HISTORY</span></a></li>
+	</ul>
+</div>
+<!-- //Toolbar -->
+
+<!-- 큐레이션팝업 -->
+<div class="layers type-normal" id="popup-mypick">
+	<div class="layer-header">MY PICK</div>
+	<div class="layer-contents">
+		<div class="tabs curation" data-ui="TabMenu">
+			<div class="tabs-type-roof is-two">
+				<a id="todayHistory" class="active" data-content="menu"><span>TODAY HISTORY</span></a>
+				<a id="MyLikeItems" data-content="menu"><span>MY LIKE ITEMS</span></a>
+			</div>
+			<!-- TODAY HISTORY -->
+			<div class="active" data-content="content">
+				<!-- 내역 없는 경우 -->
+				<div class="result-none">
+					<i style="height:37px"><img src="../static/img/content/icon_history_none.gif" alt="내역 없음"></i>
+					<p>HISTORY 내역이 없습니다.</p>
+				</div>
+				<!-- 내역 있는 경우 -->
+				<div class="cu_history_wrp">
+					<ul class="cu_history_list">
+						<li>
+							<div class="thumbnail is-mini is-goods">
+								<div class="image"><a href=""><img src="../static/img/test/@goods_330_02.jpg" alt="상품 썸네일"></a></div>
+								<div class="thumbnail-info">
+									<div class="title auto">여성 캐시미어 코트</div>
+									<div class="price"><del>358,000</del><strong>250,600</strong></div>
+									<div class="function">
+										<button type="button"><span><i class="icon-cart-grey">장바구니</i></span></button>
+										<button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>12</span></button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thumbnail is-mini is-goods">
+								<div class="image"><a href=""><img src="../static/img/test/@goods_330_01.jpg" alt="상품 썸네일"></a></div>
+								<div class="thumbnail-info">
+									<div class="title auto">여성 캐시미어 코트</div>
+									<div class="price"><del>358,000</del><strong>250,600</strong></div>
+									<div class="function">
+										<button type="button"><span><i class="icon-cart-grey">장바구니</i></span></button>
+										<button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>12</span></button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thumbnail is-mini is-figcaption">
+								<div class="image"><a href="" style="background:url(../static/img/test/@thumbnail_promotion_80.jpg) no-repeat"></a></div>
+								<div class="thumbnail-info">
+									<div class="type-value">PROMOTION</div>
+									<div class="title">게스 글로벌 페이스북 좋아요 이벤트</div>
+									<div class="date">2018.01.01 ~ 2018.01.31</div>
+									<div class="function"><button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>12</span></button></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="cu_btm_btn"><a href="">전체삭제</a></div>
+				</div>
+			</div>
+			<!-- MY LIKE ITEMS -->
+			<div class="" data-content="content">
+				<!-- 로그인 전 -->
+				<div class="result-none">
+					<p>로그인 후 이용 가능합니다.</p>
+					<a href="" class="btn-regular is-point" style="width:160px;margin-top:20px;">로그인</a>
+				</div>
+				<!-- 내역 없는 경우 -->
+				<div class="result-none">
+					<i style="height:37px"><img src="../static/img/content/icon_like_none.gif" alt="내역 없음"></i>
+					<p>MY LIKE ITEMS이 없습니다.</p>
+				</div>
+				<!-- 내역 있는 경우 -->
+				<ul class="cu_like_list">
+					<li>
+						<div class="thumbnail is-mini is-goods">
+							<div class="image"><a href=""><img src="../static/img/test/@goods_330_07.jpg" alt="상품 썸네일"></a></div>
+							<div class="thumbnail-info">
+								<div class="title auto">여성 포인트 스티치 맨투맨 티셔츠</div>
+								<div class="price"><del>358,000</del><strong>250,600</strong></div>
+								<div class="function">
+									<button type="button"><span><i class="icon-cart-grey">장바구니</i></span></button>
+									<button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>12</span></button>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="thumbnail is-mini is-figcaption">
+							<div class="image"><a href="" style="background:url(../static/img/test/@thumbnail_promotion_80.jpg) no-repeat"></a></div>
+							<div class="thumbnail-info">
+								<div class="type-value">PROMOTION</div>
+								<div class="title">게스 글로벌 페이스북 좋아요 이벤트</div>
+								<div class="date">2018.01.01 ~ 2018.01.31</div>
+								<div class="function"><button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>12</span></button></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="thumbnail is-mini is-goods">
+							<div class="image"><a href=""><img src="../static/img/test/@goods_330_05.jpg" alt="상품 썸네일"></a></div>
+							<div class="thumbnail-info">
+								<div class="title auto">여성 아우터 구스 캐시미어 패딩</div>
+								<div class="price"><del>358,000</del><strong>250,600</strong></div>
+								<div class="function">
+									<button type="button"><span><i class="icon-cart-grey">장바구니</i></span></button>
+									<button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>12</span></button>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="cu_btm_btn"><a href="">전체보기</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="layer-close"><button type="button" class="btn-close is-large"><span>닫기</span></button></div>
+</div>
+<!-- //큐레이션팝업 -->
+
+</body>
+</html>

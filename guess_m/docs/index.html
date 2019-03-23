@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="robots" content="noindex,nofollow">
+	<title>GUESS m | Main</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+	<link rel="stylesheet" type="text/css" href="../static/css/common.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/component.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/content.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../static/img/common/favicon_android.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../static/img/common/favicon_apple.png">
+	<script src="../static/js/jquery-1.12.0.min.js"></script>
+	<script src="../static/js/jquery.bxslider.min.js"></script>
+	<script src="../static/js/ixBand_1.0.min.js"></script>
+	<script src="../static/js/ixSnack_0.4.min.js"></script>
+	<script src="../static/js/ui.js"></script>
+</head>
+<body>
+<a href="#content" class="skip">Skip to Content</a>
+
+<!-- Header -->
+<header id="header" class="in_main">
+	<div class="hd_wrp">
+		<h1 class="logo"><a href=""><img src="../static/img/common/h1_logo.png" alt="GUESS"></a></h1>
+		<h2 class="hd_title">&nbsp;</h2>
+		<a href="javascript:history.back();" class="btn_back">뒤로가기</a>
+		<div class="utilmenu">
+			<a href="#popup-sch"><i class="icon-search">검색</i></a>
+			<a href=""><i class="icon-cart">장바구니<span class="count">7</span></i></a>
+		</div>
+	</div>
+
+	<!-- 검색팝업 -->
+	<div id="popup-sch" class="layers sch_wrp">
+		<div class="inner">
+			<div class="sch_frm">
+				<div class="sch_box">
+					<input type="text" class="search" placeholder="검색어를 입력하세요" title="검색어를 입력하세요">
+					<button type="button" class="btn_del">삭제</button><!-- [D] 검색어 입력시 노출되고, 클릭하면 검색어 인풋 리셋 -->
+					<button type="submit" class="btn_sch"><span class="icon-search">검색</span></button>
+				</div>
+				<div class="layer-close"><button type="button" class="btn-close is-large">닫기</button></div>
+			</div>
+			<div class="sch_tabs" data-ui="TabMenu">
+				<div class="tabs-type-basic">
+					<button type="button" data-content="menu" class="active" title="선택됨"><span>최근검색어</span></button>
+					<button type="button" data-content="menu"><span>인기검색어</span></button>
+				</div>
+				<!-- 최근검색어 -->
+				<div class="active" data-content="content">
+					<div class="sch_recent">
+						<ul class="list">
+							<li><a href="">데님점퍼</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+							<li><a href="">로고 티셔츠</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+							<li><a href="">부츠컷 진</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+							<li><a href="">수지데님</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+							<li><a href="">백팩</a><button type="button" class="btn-close is-medium" title="검색어 삭제">삭제</button></li>
+						</ul>
+						<div class="del_all"><button type="button" class="btn-regular is-line-blk">검색어 전체삭제</button></div>
+					</div>
+				</div>
+				<!-- //최근검색어 -->
+				<!-- 인기검색어 -->
+				<div data-content="content">
+					<div class="sch_popular">
+						<ul class="list">
+							<li><span class="num point-color">1</span><a href="">데님점퍼</a></li>
+							<li><span class="num point-color">2</span><a href="">로고 티셔츠</a></li>
+							<li><span class="num point-color">3</span><a href="">부츠컷 진</a></li>
+							<li><span class="num">4</span><a href="">수지데님</a></li>
+							<li><span class="num">5</span><a href="">백팩</a></li>
+							<li><span class="num">6</span><a href="">항공점퍼</a></li>
+							<li><span class="num">7</span><a href="">롱기장 티셔츠</a></li>
+							<li><span class="num">8</span><a href="">맨투맨 티셔츠</a></li>
+							<li><span class="num">9</span><a href="">군모</a></li>
+							<li><span class="num">10</span><a href="">스냅백</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- //인기검색어 -->
+			</div>
+		</div>
+	</div>
+	<!-- //검색팝업 -->
+
+	<!-- LNB -->
+	<nav id="lnb_wrp">
+		<div class="lnb_container">
+			<div class="lnb">
+
+				<div class="login_area">
+					<!-- 로그인 안 한 경우 노출 -->
+					<a href="" class="btn-small is-point-blk">로그인</a>
+					<!-- 로그인 한 경우 노출 -->
+					<div class="clear">
+						<span class="ment pull-left"><strong>홍길동</strong>님 반갑습니다.</span>
+						<a href="" class="btn-small is-line pull-right">로그아웃</a>
+					</div>
+				</div>
+
+				<div class="quick_area">
+					<ul class="quick_menu clear">
+						<li><a href=""><i class="icon-lnb-mypage"></i><p class="tit">마이페이지</p></a></li>
+						<li><a href=""><i class="icon-lnb-order"></i><p class="tit">주문배송</p></a></li>
+						<li><a href=""><i class="icon-lnb-coupon"></i><p class="tit">쿠폰함</p></a></li>
+					</ul>
+					<div class="banner"><a href=""><img src="../static/img/banner/@lnb_banner01.jpg" alt="프로모션배너"></a></div>
+				</div>
+
+				<div class="gnb_area">
+					<ul class="gnb">
+						<li>
+							<a href="javascript:;" class="gnbmenu">WOMEN</a>
+							<ul class="sub">
+								<li><a href="../goods/goods_list.php">ALL</a></li>
+								<li><a href="../goods/goods_list.php">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">MEN</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">DENIM</a>
+							<ul class="sub">
+								<li><a href="">WOMEN</a></li>
+								<li><a href="">MEN</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">BAG&amp;SHOES</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">UNDERWEAR</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu point-color">SALE</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnbmenu">IT’S GUESS</a>
+							<ul class="sub">
+								<li><a href="">COATS/JACKETS</a></li>
+								<li><a href="">T-SHIRTS/SHIRTS/SWEATER</a></li>
+								<li><a href="">DRESS/SKIRT</a></li>
+								<li><a href="">PANTS/SHORTS</a></li>
+								<li><a href="">DENIM</a></li>
+								<li><a href="">ACC</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="cs_area">
+					<ul class="cs_menu">
+						<li><a href="">매장안내</a></li>
+						<li><a href="">고객센터</a></li>
+					</ul>
+					<div class="banner"><a href=""><img src="../static/img/banner/@lnb_banner01.jpg" alt="프로모션배너"></a></div>
+					<div class="link">
+						<a href="http://www.guesstheday.co.kr/#/main.html" target="_blank"><i class="icon-guesstheday">GUESS THE DAY</i></a>
+						<a href="https://blog.naver.com/guess_korea" target="_blank"><i class="icon-blog">NAVER BLOG</i></a>
+					</div>
+				</div>
+
+			</div>
+			<a href="javascript:;" class="btn_lnb_cls">닫기</a>
+		</div>
+	</nav>
+	<!-- //LNB -->
+</header>
+<!-- //Header -->
+
+<!-- Page -->
+<div id="page">
+	<!-- Content -->
+	<div id="content">
+		<!-- main -->
+		<main class="main_wrp">
+			<!-- mainVisual -->
+			<div class="main_visual" style="overflow:hidden;">
+				<div class="slider" data-ix-options="auto-play:true;delay:5000;motion-type:mask;viewport-ratio:720 754;">
+					<div class="ix-list-viewport">
+						<ul class="ix-list-items clear">
+							<li class="ix-list-item">
+								<span class="item">
+									<a href="">
+										<img src="../static/img/test/@main_visual01.jpg" alt="메인배너이미지">
+										<span class="txt_area">
+											<span class="tit">마음 따뜻해 지는 겨울 세일</span>
+											<span class="subtit">재고소진시까지, 일부품목제외</span>
+											<span class="btn-primary is-line">최고 50% 할인</span>
+										</span>
+									</a>
+								</span>
+							</li>
+							<li class="ix-list-item">
+								<span class="item">
+									<a href="">
+										<img src="../static/img/test/@main_visual02.jpg" alt="메인배너이미지">
+										<span class="txt_area">
+											<span class="tit">TIME SALE</span>
+											<span class="subtit">크리스마스 기념 겨울 아우터 세일</span>
+											<span class="btn-primary is-line">최고 50% 할인</span>
+										</span>
+									</a>
+								</span>
+							</li>
+							<li class="ix-list-item">
+								<span class="item">
+									<a href="">
+										<img src="../static/img/test/@main_visual03.jpg" alt="메인배너이미지">
+										<span class="txt_area">
+											<span class="tit">17 WINTER SEASON OFF</span>
+											<span class="subtit">아웃도어 대전, 겨울상품 시즌 오프</span>
+											<span class="btn-primary is-line">최고 50% 할인</span>
+										</span>
+									</a>
+								</span>
+							</li>
+						</ul>
+					</div>
+					<div class="count_wrp">
+						<span class="count"><strong class="now"></strong>/<span class="tot"></span></span>
+						<a href="#popup-main-promotion" class="btn_view_all"><i class="icon-plus">전체보기</i></a>
+					</div>
+				</div>
+			</div>
+			<!-- //mainVisual -->
+
+			<!-- newArrivals -->
+			<div class="new_arrivals">
+				<h2 class="main_title">NEW ARRIVALS</h2>
+				<div class="tabs" data-ui="TabMenu">
+					<div class="tabs-type-basic is-flex">
+						<button type="button" data-content="menu" class="active"><span>WOMEN</span></button>
+						<button type="button" data-content="menu"><span>MEN</span></button>
+						<button type="button" data-content="menu"><span>DENIM</span></button>
+						<button type="button" data-content="menu"><span>BAG&amp;SHOES</span></button>
+						<button type="button" data-content="menu"><span>UNDERWEAR</span></button>
+					</div>
+					<!-- WOMEN -->
+					<div class="active" data-content="content">
+						<div class="list_wrp">
+							<ul class="list">
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_260_02.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">울트라 앵클스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>98,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_260_03.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">여성 염착 틴 인디고 울트라 앵클스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>256,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_330_01.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">여성 염착 틴 인디고 스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>156,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_330_03.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">여성 염착 틴 인디고 스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>156,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_330_07.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">여성 염착 틴 인디고 스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>156,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- MEN -->
+					<div data-content="content">
+						<div class="list_wrp">
+							<ul class="list">
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_330_06.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">울트라 앵클스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>98,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_330_04.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">울트라 앵클스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>98,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_260_03.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">울트라 앵클스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>98,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_330_07.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">울트라 앵클스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>98,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="item">
+									<div class="thumbnail">
+										<a href="">
+											<div class="image"><img class="already" src="../static/img/test/@goods_330_03.jpg" alt="상품 썸네일"></div>
+											<div class="thumbnail-info">
+												<div class="title">울트라 앵클스키니</div>
+												<div class="price clear">
+													<div class="pull-left"><strong>98,600</strong></div>
+													<div class="pull-right"><span class="discount">75%</span></div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- DENIM -->
+					<div data-content="content">
+						DENIM
+					</div>
+
+					<!-- BAG&SHOES -->
+					<div data-content="content">
+						BAG&SHOES
+					</div>
+
+					<!-- UNDERWEAR -->
+					<div data-content="content">
+						UNDERWEAR
+					</div>
+				</div>
+			</div>
+			<!-- //newArrivals -->
+
+			<!-- promotion -->
+			<div class="promotion">
+				<ul class="list">
+					<li>
+						<div class="item">
+							<a href="">
+								<div class="img"><img src="../static/img/test/@main_pr2_01.jpg" alt="프로모션 배너 이미지"></div>
+								<div class="txt">
+									<p class="subject">겨울 홈 웨어 추천 #스타로브가운</p>
+									<p class="exp">겨울맞이 기획전</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<a href="">
+								<div class="img"><img src="../static/img/test/@main_pr2_02.jpg" alt="프로모션 배너 이미지"></div>
+								<div class="txt">
+									<p class="subject">#17 WINTER<br>겨울 모직 코트 시즌오프</p>
+									<p class="exp">올겨울 마지막 할인!</p>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- //promotion -->
+
+			<!-- parallaxBanner -->
+			<div class="prlx_banner">
+				<a href=""><img src="../static/img/test/@prlx_.jpg" alt=""></a>
+				<!-- <div class="bn_wrp">
+					<div class="fig" style="background-image:url(../static/img/test/@prlx_test01.jpg);" 
+					data-bottom-top="background-position:50% 0%;" data-top="background-position:50% 100%;"></div>
+						
+					<div class="fig" style="background-image:url(../static/img/test/@prlx_test02.png);" 
+					data-bottom-top="background-position:50% 0%;" data-top="background-position:50% 100%;"></div>
+						
+					<div class="fig" style="background-image:url(../static/img/test/@prlx_test03.png);" 
+					data-bottom-top="background-position:50% 100%;" data-top="background-position:50% 0%;"></div>
+				</div> -->
+			</div>
+			<!-- //parallaxBanner -->
+
+			<!-- bestSelling -->
+			<div class="best_selling">
+				<h2 class="main_title">BEST SELLING</h2>
+				<div class="list_wrp">
+					<ul class="list">
+						<li class="item">
+							<div class="thumbnail">
+								<a href="">
+									<div class="image"><img class="already" src="../static/img/test/@goods_330_09.jpg" alt="상품 썸네일"></div>
+									<div class="thumbnail-info">
+										<div class="title">여성 투톤 베스트</div>
+										<div class="price clear">
+											<div class="pull-left"><strong>98,600</strong></div>
+											<div class="pull-right"><span class="discount">75%</span></div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="item">
+							<div class="thumbnail">
+								<a href="">
+									<div class="image"><img class="already" src="../static/img/test/@goods_330_02.jpg" alt="상품 썸네일"></div>
+									<div class="thumbnail-info">
+										<div class="title">여성 다운 더치쳐블 야상 점퍼 캐시미어</div>
+										<div class="price clear">
+											<div class="pull-left"><strong>254,600</strong></div>
+											<div class="pull-right"><span class="discount">50%</span></div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="item">
+							<div class="thumbnail">
+								<a href="">
+									<div class="image"><img class="already" src="../static/img/test/@goods_330_05.jpg" alt="상품 썸네일"></div>
+									<div class="thumbnail-info">
+										<div class="title">울트라 앵클스키니</div>
+										<div class="price clear">
+											<div class="pull-left"><strong>198,600</strong></div>
+											<div class="pull-right"><span class="discount">50%</span></div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="item">
+							<div class="thumbnail">
+								<a href="">
+									<div class="image"><img class="already" src="../static/img/test/@goods_330_01.jpg" alt="상품 썸네일"></div>
+									<div class="thumbnail-info">
+										<div class="title">울트라 앵클스키니</div>
+										<div class="price clear">
+											<div class="pull-left"><strong>198,600</strong></div>
+											<div class="pull-right"><span class="discount">50%</span></div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="item">
+							<div class="thumbnail">
+								<a href="">
+									<div class="image"><img class="already" src="../static/img/test/@goods_330_04.jpg" alt="상품 썸네일"></div>
+									<div class="thumbnail-info">
+										<div class="title">울트라 앵클스키니</div>
+										<div class="price clear">
+											<div class="pull-left"><strong>198,600</strong></div>
+											<div class="pull-right"><span class="discount">50%</span></div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //bestSelling -->
+
+			<!-- guessPick -->
+			<div class="guess_pick">
+				<h2 class="main_title">GUESS PICK</h2>
+				<div class="box" style="background-image:url(../static/img/test/@guess_pick01.jpg)"><!-- [D] size:720x700 -->
+					<div class="subject">
+						<p class="tit">WOMEN</p>
+						<a href="" class="btn_link">SHOP</a>
+					</div>
+					<div class="list_wrp">
+						<ul class="list">
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_260_01.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">울트라 캐시미어 라이트 울자켓</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>298,600</strong></div>
+												<div class="pull-right"><span class="discount">75%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_330_06.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">울트라 앵클스키니</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>108,600</strong></div>
+												<div class="pull-right"><span class="discount">50%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_260_01.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">울트라 앵클스키니</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>108,600</strong></div>
+												<div class="pull-right"><span class="discount">50%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_330_06.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">울트라 앵클스키니</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>108,600</strong></div>
+												<div class="pull-right"><span class="discount">50%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_260_01.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">울트라 앵클스키니</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>108,600</strong></div>
+												<div class="pull-right"><span class="discount">50%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="box" style="background-image:url(../static/img/test/@guess_pick02.jpg)"><!-- [D] size:720x700 -->
+					<div class="subject">
+						<p class="tit">MEN</p>
+						<a href="" class="btn_link">SHOP</a>
+					</div>
+					<div class="list_wrp">
+						<ul class="list">
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_330_01.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">남성 울트라 앵클스키니</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>148,200</strong></div>
+												<div class="pull-right"><span class="discount">55%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_330_04.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">울트라 앵클스키니</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>98,600</strong></div>
+												<div class="pull-right"><span class="discount">50%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_330_01.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">울트라 앵클스키니</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>98,600</strong></div>
+												<div class="pull-right"><span class="discount">50%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_330_04.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">울트라 앵클스키니</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>98,600</strong></div>
+												<div class="pull-right"><span class="discount">50%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<li class="item">
+								<div class="thumbnail">
+									<a href="">
+										<div class="image"><img class="already" src="../static/img/test/@goods_330_01.jpg" alt="상품 썸네일"></div>
+										<div class="thumbnail-info">
+											<div class="title">울트라 앵클스키니</div>
+											<div class="price clear">
+												<div class="pull-left"><strong>98,600</strong></div>
+												<div class="pull-right"><span class="discount">50%</span></div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- //guessPick -->
+
+			<!-- guessSignatureLook -->
+			<div class="sign_look">
+				<h2 class="main_title"><a href="">GUESS<br><span class="big">SIGNATURE LOOK</span></a></h2>
+				<div class="slider_wrp with-controls">
+					<ul class="slider">
+						<li>
+							<div class="look_bg"><a href=""><img src="../static/img/test/@sign_look01.jpg" alt="signature look 이미지"></a></div>
+							<div class="list">
+								<div class="item"><a href=""><img src="../static/img/test/@goods_300_01.jpg" alt="상품 썸네일"></a></div>
+								<div class="item"><a href=""><img src="../static/img/test/@goods_300_02.jpg" alt="상품 썸네일"></a></div>
+							</div>
+						</li>
+						<li>
+							<div class="look_bg"><a href=""><img src="../static/img/test/@sign_look03.jpg" alt="signature look 이미지"></a></div>
+							<div class="list">
+								<div class="item"><a href=""><img src="../static/img/test/@goods_330_02.jpg" alt="상품 썸네일"></a></div>
+								<div class="item"><a href=""><img src="../static/img/test/@goods_330_03.jpg" alt="상품 썸네일"></a></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //guessSignatureLook -->
+		</main>
+		<!-- //main -->
+	</div>
+	<!-- //Content -->
+
+	<!-- 프로모션팝업 -->
+	<div class="layers type-normal lyr_main_pr" id="popup-main-promotion">
+		<div class="layer-header"><strong>전체보기</strong><span class="count">(5)</span></div>
+		<div class="layer-contents">
+			<div class="main_visual">
+				<ul class="list">
+					<li class="item">
+						<a href="">
+							<img src="../static/img/test/@main_visual01.jpg" alt="메인배너이미지">
+							<span class="txt_area">
+								<span class="tit">마음 따뜻해 지는 겨울 세일</span>
+								<span class="subtit">재고소진시까지, 일부품목제외</span>
+								<span class="btn-primary is-line">최고 50% 할인</span>
+							</span>
+						</a>
+					</li>
+					<li class="item">
+						<a href="">
+							<img src="../static/img/test/@main_visual02.jpg" alt="메인배너이미지">
+							<span class="txt_area">
+								<span class="tit">TIME SALE</span>
+								<span class="subtit">크리스마스 기념 겨울 아우터 세일</span>
+								<span class="btn-primary is-line">최고 50% 할인</span>
+							</span>
+						</a>
+					</li>
+					<li class="item">
+						<a href="">
+							<img src="../static/img/test/@main_visual03.jpg" alt="메인배너이미지">
+							<span class="txt_area">
+								<span class="tit">17 WINTER SEASON OFF</span>
+								<span class="subtit">아웃도어 대전, 겨울상품 시즌 오프</span>
+								<span class="btn-primary is-line">최고 50% 할인</span>
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="layer-close"><button type="button" class="btn-close is-large"><span>닫기</span></button></div>
+	</div>
+	<!-- //프로모션팝업 -->
+
+	<!-- 광고형 레이어 -->
+	<div class="layers type-bn" style="position:fixed; top:100px; display:none"> <!-- [D] 높이값 어드민에서 설정 가능해야는지 체크요망 -->
+		<div class="layer-contents">
+			<img src="../static/img/banner/@promotion_slider01.jpg" alt="레이어배너">
+		</div>
+		<div class="layer-today-close">
+			<div class="option-box dir-flow">
+				<label><input type="checkbox" name="options1"><span>오늘 하루 다시보지 않기</span></label>
+			</div>
+		</div>
+		<div class="layer-close"><button type="button" class="btn-close is-large"><span>닫기</span></button></div>
+	</div>
+	<!-- //광고형 레이어 -->
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="ft_menu">
+			<li><a href="">회사소개</a></li>
+			<li><a href="">고객센터</a></li>
+			<li><a href="">매장안내</a></li>
+			<li><a href="">PC버전</a></li>
+		</ul>
+		<div class="ft_info">
+			<div class="link">
+				<a href="http://www.guesstheday.co.kr/#/main.html" target="_blank">GUESS THE DAY</a>
+				<a href="https://blog.naver.com/guess_korea" target="_blank">NAVER BLOG</a>
+			</div>
+			<div class="company_info active">
+				<a href="javascript:;" class="btn_view_info">게스홀딩스코리아유한회사 정보확인</a>
+				<div class="toggle_con">
+					<ul class="ft_menu">
+						<li><a href="">이용약관</a></li>
+						<li><a href="">개인정보취급방침</a></li>
+					</ul>
+					<div class="info_detail">
+						<p><span>게스홀딩스코리아유한회사</span><span>대표이사: 제임스윤영박</span></p>
+						<p><span>주소: 서울특별시 강남구 테혜란로 534 글라스 타워 28층</span></p>
+						<p><span>게스 대표번호: 080-001-2220 (평일 10:00 ~ 17:00,<br> 점심 12:00 ~ 13:00)</span><span>카카오톡 상담 : @게스코리아</span></p>
+						<p><span>사업자 등록번호: 211-87-83034</span></p>
+						<p><span>통신판매업 신고: 2013-서울강남-01681호</span></p>
+						<p class="copyright">COPYRIGHT (c) GUESSKOREA. ALL RIGHTS RESERVED.</p>
+						<p><span><a href="">에스크로 서비스 가입 확인</a></span><span><a href="">사업자정보확인</a></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="btn_top"><a href="#">맨위로</a></div>
+	</footer>
+	<!-- //Footer -->
+</div>
+<!-- //Page -->
+
+<!-- Toolbar -->
+<div id="toolbar">
+	<ul class="toolbar_menu">
+		<li><a href="javascript:;" class="btn_lnb_open"><i class="icon-toolbar-menu"></i><span class="tit">MENU</span></a></li>
+		<li><a href=""><i class="icon-toolbar-mypage"></i><span class="tit">MYPAGE</span></a></li><!-- [D] 해당페이지에서 active클래스 추가 -->
+		<li class="active"><a href=""><i class="icon-toolbar-home"></i><span class="tit">HOME</span></a></li><!-- [D] 해당페이지에서 active클래스 추가 -->
+		<li><a href="#popup-mypick" class="btn_MyLikeItems"><i class="icon-toolbar-like"></i><span class="tit">LIKE</span></a></li>
+		<li><a href="#popup-mypick" class="btn_todayHistory"><i class="icon-toolbar-history"></i><span class="tit">HISTORY</span></a></li>
+	</ul>
+</div>
+<!-- //Toolbar -->
+
+<!-- 큐레이션팝업 -->
+<div class="layers type-normal" id="popup-mypick">
+	<div class="layer-header">MY PICK</div>
+	<div class="layer-contents">
+		<div class="tabs curation" data-ui="TabMenu">
+			<div class="tabs-type-roof is-two">
+				<a id="todayHistory" class="active" data-content="menu"><span>TODAY HISTORY</span></a>
+				<a id="MyLikeItems" data-content="menu"><span>MY LIKE ITEMS</span></a>
+			</div>
+			<!-- TODAY HISTORY -->
+			<div class="active" data-content="content">
+				<!-- 내역 없는 경우 -->
+				<div class="result-none">
+					<i style="height:37px"><img src="../static/img/content/icon_history_none.gif" alt="내역 없음"></i>
+					<p>HISTORY 내역이 없습니다.</p>
+				</div>
+				<!-- 내역 있는 경우 -->
+				<div class="cu_history_wrp">
+					<ul class="cu_history_list">
+						<li>
+							<div class="thumbnail is-mini is-goods">
+								<div class="image"><a href=""><img src="../static/img/test/@goods_330_02.jpg" alt="상품 썸네일"></a></div>
+								<div class="thumbnail-info">
+									<div class="title auto">여성 캐시미어 코트</div>
+									<div class="price"><del>358,000</del><strong>250,600</strong></div>
+									<div class="function">
+										<button type="button"><span><i class="icon-cart-grey">장바구니</i></span></button>
+										<button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>12</span></button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thumbnail is-mini is-goods">
+								<div class="image"><a href=""><img src="../static/img/test/@goods_330_01.jpg" alt="상품 썸네일"></a></div>
+								<div class="thumbnail-info">
+									<div class="title auto">여성 캐시미어 코트</div>
+									<div class="price"><del>358,000</del><strong>250,600</strong></div>
+									<div class="function">
+										<button type="button"><span><i class="icon-cart-grey">장바구니</i></span></button>
+										<button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>12</span></button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thumbnail is-mini is-figcaption">
+								<div class="image"><a href="" style="background:url(../static/img/test/@thumbnail_promotion_80.jpg) no-repeat"></a></div>
+								<div class="thumbnail-info">
+									<div class="type-value">PROMOTION</div>
+									<div class="title">게스 글로벌 페이스북 좋아요 이벤트</div>
+									<div class="date">2018.01.01 ~ 2018.01.31</div>
+									<div class="function"><button class="btn-like-count is-normal"><i class="icon-like">좋아요</i><span>12</span></button></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="cu_btm_btn"><a href="">전체삭제</a></div>
+				</div>
+			</div>
+			<!-- MY LIKE ITEMS -->
+			<div class="" data-content="content">
+				<!-- 로그인 전 -->
+				<div class="result-none">
+					<p>로그인 후 이용 가능합니다.</p>
+					<a href="" class="btn-regular is-point" style="width:160px;margin-top:20px;">로그인</a>
+				</div>
+				<!-- 내역 없는 경우 -->
+				<div class="result-none">
+					<i style="height:37px"><img src="../static/img/content/icon_like_none.gif" alt="내역 없음"></i>
+					<p>MY LIKE ITEMS이 없습니다.</p>
+				</div>
+				<!-- 내역 있는 경우 -->
+				<ul class="cu_like_list">
+					<li>
+						<div class="thumbnail is-mini is-goods">
+							<div class="image"><a href=""><img src="../static/img/test/@goods_330_07.jpg" alt="상품 썸네일"></a></div>
+							<div class="thumbnail-info">
+								<div class="title auto">여성 포인트 스티치 맨투맨 티셔츠</div>
+								<div class="price"><del>358,000</del><strong>250,600</strong></div>
+								<div class="function">
+									<button type="button"><span><i class="icon-cart-grey">장바구니</i></span></button>
+									<button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>12</span></button>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="thumbnail is-mini is-figcaption">
+							<div class="image"><a href="" style="background:url(../static/img/test/@thumbnail_promotion_80.jpg) no-repeat"></a></div>
+							<div class="thumbnail-info">
+								<div class="type-value">PROMOTION</div>
+								<div class="title">게스 글로벌 페이스북 좋아요 이벤트</div>
+								<div class="date">2018.01.01 ~ 2018.01.31</div>
+								<div class="function"><button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>12</span></button></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="thumbnail is-mini is-goods">
+							<div class="image"><a href=""><img src="../static/img/test/@goods_330_05.jpg" alt="상품 썸네일"></a></div>
+							<div class="thumbnail-info">
+								<div class="title auto">여성 아우터 구스 캐시미어 패딩</div>
+								<div class="price"><del>358,000</del><strong>250,600</strong></div>
+								<div class="function">
+									<button type="button"><span><i class="icon-cart-grey">장바구니</i></span></button>
+									<button class="btn-like-count is-normal active"><i class="icon-like">좋아요</i><span>12</span></button>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="cu_btm_btn"><a href="">전체보기</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="layer-close"><button type="button" class="btn-close is-large"><span>닫기</span></button></div>
+</div>
+<!-- //큐레이션팝업 -->
+
+<script>
+$(document).ready(function(){
+	// mainVisual slider
+	$(window).on('resize', function(){
+		mainSlider.ixOverlayList('resize');
+	});
+	var mainSlider = $('.main_visual .slider');
+	function mainVisualSlider() {
+		mainSlider.on('ixOverlayList:init', function(e) {
+			mainSlider.find('.count .now').text( (e.currentIndex) ? e.currentIndex + 1 : 1 );
+			mainSlider.find('.count .tot').text( e.totalLength );
+		});
+		var isLoop = ( mainSlider.find( 'li' ).length > 2 ) ? true : false;
+		mainSlider.ixOverlayList({loop: isLoop});
+		mainSlider.on('ixOverlayList:change', function(e) {
+			mainSlider.find('.count .now').text( (e.currentIndex) ? e.currentIndex + 1 : 1 );
+		});
+	}
+	mainVisualSlider();
+
+	// main > guessSignatureLook
+	$('.main_wrp .sign_look .slider').bxSlider({
+		mode: 'fade',
+		pager: false
+	});
+});
+</script>
+</body>
+</html>

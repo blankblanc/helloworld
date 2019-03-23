@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<title>AWKmall m | List</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="robots" content="noindex,nofollow">
+	<link rel="stylesheet" href="../static/css/common.css">
+	<link rel="stylesheet" href="../static/css/component.css">
+	<link rel="stylesheet" href="../static/css/content.css">
+	<link rel="stylesheet" href="../static/css/nouislider.css">
+	<script type="text/javascript" src="../static/js/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="../static/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="../static/js/nouislider.min.js"></script>
+	<script type="text/javascript" src="../static/js/wNumb.js"></script>
+	<script type="text/javascript" src="../static/js/ui.js"></script>
+</head>
+<body>
+<a href="#contents" class="skip">Skip to Contents</a>
+
+<!-- 헤더 영역 -->
+<header id="header">
+	<div class="header">
+		<h1 class="logo">
+			<a href="#"><img src="../static/img/common/logo.png" alt="AWKmall"></a><!-- [D] 기본 노출 로고 -->
+			<!-- <a href="#"><img src="../static/img/common/logo_kids.png" alt="AWKkids"></a> --><!-- [D] AWKkids인 경우 노출 -->
+		</h1>
+		<div class="btn_lnb"><a href="sidemenu.html"><i class="icon_lnb">전체메뉴 보기</i></a></div>
+		<div class="btn_cart"><a href="#"><i class="icon_cart">장바구니</i></a></div>
+		<div class="btn_search_wrap"><button type="button" class="btn_search"><i class="icon_search">검색</i></button></div>
+	</div>
+</header>
+<!-- //헤더 영역 -->
+
+<!-- 페이지 영역 -->
+<div id="page">
+	<!-- 컨텐츠 영역 -->
+	<div id="contents">
+		<article class="goodslist_wrap">
+			<header class="page_hd">
+				<a href="javascript:history.back();" class="btn_history_back">이전 페이지 이동</a>
+
+				<ul class="breadcrumb">
+					<li class="on"><a href="#">KIDS</a></li><!-- [D] 선택된 경우 .on 클래스 추가 -->
+					<li><a href="#">OUTER</a></li>
+				</ul>
+
+				<div class="sub_category divide-box-wrap three">
+					<ul class="divide-box">
+						<li title="선택됨"><a href="#" class="active">KIDS</a></li><!-- [D] 선택된 경우 .active 클래스 추가 -->
+						<li><a href="#">JUNIOR</a></li>
+						<li><a href="#">MEN</a></li>
+						<li><a href="#">WOMEN</a></li>
+						<li><a href="#">SHOWWINDOW</a></li>
+					</ul>
+				</div>
+
+				<div class="category_d3 divide-box-wrap three hide">
+					<ul class="divide-box">
+						<li title="선택됨"><a href="#" class="active">ALL</a></li><!-- [D] 선택된 경우 .active 클래스 추가 -->
+						<li><a href="#">코트</a></li>
+						<li><a href="#">패딩</a></li>
+						<li><a href="#">다운</a></li>
+						<li><a href="#">자켓</a></li>
+						<li><a href="#">베스트</a></li>
+						<li><a href="#">가디건</a></li>
+						<li><a href="#">트레이닝 자켓</a></li>
+					</ul>
+				</div>
+			</header>
+			
+			<section class="listpage">
+				<!-- sorting -->
+				<div class="goods-sort clear">
+					<div class="total-ea">ALL <strong>235</strong>개</div>
+					<a href="javascript:;" class="btn_filter">FILTER +</a>
+					<div class="sort-by">
+						<select class="select_def">
+							<option value="">신상품순</option>
+							<option value="">인기순</option>
+							<option value="">상품평순</option>
+							<option value="">좋아요순</option>
+							<option value="">낮은가격순</option>
+							<option value="">높은가격순</option>
+						</select>
+					</div>
+				</div>
+				<!-- //sorting -->
+
+				<!-- 상품리스트 -->
+				<div class="goods_list_wrap">
+					<ul class="goods_list">
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods04.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											<img src="../static/img/test/tag_best.gif" alt="BEST">
+											<img src="../static/img/test/tag_soldout.gif" alt="SOLD OUT">
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods05.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											<img src="../static/img/test/tag_new.gif" alt="NEW">
+											<img src="../static/img/test/tag_soldout.gif" alt="SOLD OUT">
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods06.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											<img src="../static/img/test/tag_new.gif" alt="NEW">
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods07.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods08.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods09.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods10.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods11.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods12.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="goods_wrap">
+								<a href="#">
+									<div class="img"><img src="../static/img/test/@goods13.jpg" alt="상품이미지"></div>
+									<div class="info">
+										<div class="info_name">
+											<div class="brand">AIRWALK junior</div>
+											<div class="name">바람막이 점퍼</div>
+										</div>
+										<div class="info_price">
+											<div class="price_wrap">
+												<span class="del"><del>29,900</del>원</span>
+												<span class="price"><strong>29,900</strong>원</span>
+											</div>
+										</div>
+										<div class="sale"><span class="label">쿠폰</span><span class="discount">20%</span></div>
+										<div class="tag">
+											
+										</div>
+									</div>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- //상품리스트 -->
+
+				<!-- HELP DESK -->
+				<div class="help_desk clear">
+					<div class="local_icon">
+						<span>HELP DESK</span><i class="icon_headset"></i>
+					</div>
+					<a href="tel:02-0000-0000" class="point-color">02-0000-0000</a>
+					<p class="txt">평일 10:00~17:00 (점심 12:00~13:00) <br>주말 및 공휴일 휴무</p>
+				</div>
+				<!-- //HELP DESK -->
+			<section>
+		</article>
+	</div>
+	<!-- //컨텐츠 영역 -->
+
+	<!-- 푸터 영역 -->
+	<footer id="footer">
+		<div class="footer_top">
+			<ul class="footer_menu ta-j">
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">PC버전</a></li>
+				<li><a href="#">제휴/입점상담</a></li>
+				<li><a href="#">고객센터</a></li>
+			</ul>
+		</div>
+		<div class="footer_info">
+			<ul class="sns_link">
+				<li><a href="#" target="_blank"><i class="icon_footer_sns01">facebook</i></a></li>
+				<li><a href="#" target="_blank"><i class="icon_footer_sns02">instagram</i></a></li>
+				<li><a href="#" target="_blank"><i class="icon_footer_sns03">blog</i></a></li>
+				<li><a href="#" target="_blank"><i class="icon_footer_sns04">youtube</i></a></li>
+				<li><a href="#" target="_blank"><i class="icon_footer_sns05">kakao story</i></a></li>
+			</ul>
+			<ul class="footer_menu ta-j">
+				<li><a href="#">회사소개</a></li>
+				<li><a href="#">매장안내</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">개인정보처리방침</a></li>
+			</ul>
+			<div class="company_info">
+				<address>
+					<span><strong>(주) 제이씨컴퍼니</strong></span>
+					<span>주소: 서울시 동대문구 장안동 430-18 규정 B/D</span><br>
+					<span>대표이사: 000</span>
+					<span>사업자등록번호: 000-00-000</span><br>
+					<span>통신판매업신고: 000-000-0000</span>
+					<span>개인정보관리책임자: 000</span><br>
+					<span>고객센터: 00-000-0000</span>
+					<span>FAX: 00-000-0000</span><br>
+					<span>E-MAIL: 0000@awkmall.com</span>
+					<p class="copyright">copyright © 2017 JCCOMPANY &amp; TOMSTORY All Rights Reserved </p>
+					<div class="mt-10">
+						<a href="#" target="_blank" class="btn">에스크로 서비스 가입확인</a>
+						<a href="#" target="_blank" class="btn">사업자 정보 확인</a>
+					</div>
+				</address>
+				<div class="app_link">
+					<a href="#" target="_blank"><img src="../static/img/icon/icon_footer_app01.png" alt="AppStore"></a>
+					<a href="#" target="_blank"><img src="../static/img/icon/icon_footer_app02.png" alt="Google Play"></a>
+				</div>
+			</div>
+		</div>
+		<div class="quick_btn_wrap">
+			<a href="javascript:;" class="top_btn"><img src="../static/img/btn/btn_top.gif" alt="페이지 상단 바로가기"></a>
+			<a href="javascript:history.back();" class="prev_btn"><img src="../static/img/btn/btn_prev.gif" alt="이전 페이지로 가기"></a>
+		</div>
+	</footer>
+	<!-- //푸터 영역 -->
+</div>
+<!-- //페이지 영역 -->
+
+<!-- 헤더 > 검색 -->
+<div class="layer-dimm-wrap layer_search">
+	<div class="layer-inner">
+		<button class="btn-close" type="button"><span>닫기</span></button>
+		<div class="layer-content">
+			<div class="searchbox_wrap">
+				<div class="searchbox">
+					<input type="text" title="검색어 입력 자리" value="바람막이 점퍼">
+					<button type="button"><i class="icon_search">검색</i></button>
+				</div>
+			</div>
+			<div class="search_keyword">
+				<div class="search_tab tab_type03" data-ui="TabMenu">
+					<div class="tab-menu clear">
+						<button type="button" data-content="menu" class="active" title="선택됨">최근 검색어</button>
+						<button type="button" data-content="menu">인기 검색어</button>
+					</div>
+					<!-- 최근 검색어 -->
+					<div class="tab-content active" data-content="content">
+						<div class="recent_keyword">
+							<ul class="list">
+								<li>
+									<a href="#">바람막이 점퍼</a>
+									<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+								</li>
+								<li>
+									<a href="#">티셔츠</a>
+									<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+								</li>
+								<li>
+									<a href="#">어린이날 선물</a>
+									<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+								</li>
+								<li>
+									<a href="#">트레이닝 상의</a>
+									<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+								</li>
+								<li>
+									<a href="#">트레이닝 하의</a>
+									<button type="button" class="keyword_del" title="검색어 삭제"><span>검색어 삭제</span></button>
+								</li>
+							</ul>
+							<div class="btn_area">
+								<button type="button" class="keyword_all_del"><span>검색어 삭제</span></button>
+							</div>
+						</div>
+					</div>
+					<!-- //최근 검색어 -->
+					<!-- 인기 검색어 -->
+					<div class="tab-content" data-content="content">
+						<div class="hot_keyword clear">
+							<ul class="list">
+								<li><span class="num">1.</span> <a href="#">바람막이 점퍼</a></li>
+								<li><span class="num">2.</span> <a href="#">트레이닝</a></li>
+								<li><span class="num">3.</span> <a href="#">어린이날 선물</a></li>
+								<li><span class="num">4.</span> <a href="#">래쉬가드</a></li>
+								<li><span class="num">5.</span> <a href="#">바지</a></li>
+							</ul>
+							<ul class="list">
+								<li><span class="num">6.</span> <a href="#">방수</a></li>
+								<li><span class="num">7.</span> <a href="#">아우터</a></li>
+								<li><span class="num">8.</span> <a href="#">운동화</a></li>
+								<li><span class="num">9.</span> <a href="#">티셔츠</a></li>
+								<li><span class="num">10.</span> <a href="#">가방</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- //인기 검색어 -->
+				</div>
+			</div>
+			<div class="barcode_wrap">
+				<a href="#" class="btn-basic h-large"><img src="../static/img/icon/icon_barcode.gif" alt="바코드"> 바코드</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //헤더 > 검색 -->
+
+<!-- 리스트 > 필터 -->
+<div class="layer-dimm-wrap layer_filter">
+	<div class="layer-inner">
+		<h2 class="layer-title">FILTER</h2>
+		<button class="btn-close" type="button"><span>닫기</span></button>
+		<div class="layer-content">
+			<ul class="filter_menu">
+				<!-- FILTER > AWK MALL BRAND -->
+				<li>
+					<h3 class="filter_name">AWK MALL BRAND</h3>
+					<ul class="filter_con brand">
+						<li>
+							<label>
+								<input type="checkbox" class="check_def" name="brand" checked>
+								<span>AWK kids</span>
+							</label>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" class="check_def" name="brand">
+								<span>AIRWALK junior</span>
+							</label>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" class="check_def" name="brand">
+								<span>AWK</span>
+							</label>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" class="check_def" name="brand">
+								<span>TOMSTORY</span>
+							</label>
+						</li>
+					</ul>
+				</li>
+				<!-- //FILTER > AWK MALL BRAND -->
+				<!-- FILTER > 성별 -->
+				<li>
+					<h3 class="filter_name">성별</h3>
+					<div class="filter_con check_on_label">
+						<label>
+							<input type="checkbox" name="gender" checked>
+							<span>전체</span>
+						</label>
+						<label>
+							<input type="checkbox" name="gender">
+							<span>남자</span>
+						</label>
+						<label>
+							<input type="checkbox" name="gender">
+							<span>여자</span>
+						</label>
+					</div>
+				</li>
+				<!-- //FILTER > 성별 -->
+				<!-- FILTER > 연령 -->
+				<li>
+					<h3 class="filter_name">연령</h3>
+					<div class="filter_con range_type">
+						<div id="filter_ageRange"></div>
+						<div class="range_box clear">
+							<div class="start"><input type="text" id="age_start" title="연령 최소 설정값"><span>세</span></div>
+							<div class="end"><input type="text" id="age_end" title="연령 최대 설정값"><span>세</span></div>
+						</div>
+					</div>
+				</li>
+				<!-- //FILTER > 연령 -->
+				<!-- FILTER > 색상 -->
+				<li>
+					<h3 class="filter_name">색상</h3>
+					<div class="filter_con color">
+						<label style="background:#000;"><input type="checkbox" value="black" title="black"><span></span></label>
+						<label style="background:#999;"><input type="checkbox" value="gray" title="gray"><span></span></label>
+						<label style="background:#fff;" class="light_color"><input type="checkbox" value="white" title="white"><span></span></label><!-- [D] 흰색인 경우 .light_color 클래스 추가 -->
+						<label style="background:#fe0000;"><input type="checkbox" value="red" title="red"><span></span></label>
+						<label style="background:#ffd701;"><input type="checkbox" value="yellow" title="yellow"><span></span></label>
+						<label style="background:#915435;"><input type="checkbox" value="brown" title="brown"><span></span></label>
+						<label style="background:#1d5acd;"><input type="checkbox" value="blue" title="blue"><span></span></label>
+						<label style="background:#ab15c2;"><input type="checkbox" value="purple" title="purple"><span></span></label>
+						<label style="background:#ff48b4;"><input type="checkbox" value="pink" title="pink"><span></span></label>
+						<label style="background:#329900;"><input type="checkbox" value="green" title="green"><span></span></label>
+						<label class="colorful"><input type="checkbox" value="colorful" title="colorful"><span></span></label><!-- [D] 다양한 색이 혼재된 경우 -->
+					</div>
+				</li>
+				<!-- //FILTER > 색상 -->
+				<!-- FILTER > 사이즈(키즈전용) -->
+				<li>
+					<h3 class="filter_name">사이즈(키즈전용)</h3>
+					<div class="filter_con check_on_label">
+						<label>
+							<input type="checkbox" name="kidsSize" checked>
+							<span>100</span>
+						</label>
+						<label>
+							<input type="checkbox" name="kidsSize">
+							<span>110</span>
+						</label>
+						<label>
+							<input type="checkbox" name="kidsSize">
+							<span>120</span>
+						</label>
+						<label>
+							<input type="checkbox" name="kidsSize">
+							<span>130</span>
+						</label>
+						<label>
+							<input type="checkbox" name="kidsSize">
+							<span>145</span>
+						</label>
+						<label>
+							<input type="checkbox" name="kidsSize">
+							<span>155</span>
+						</label>
+					</div>
+				</li>
+				<!-- //FILTER > 사이즈(키즈전용) -->
+				<!-- FILTER > 사이즈 -->
+				<li>
+					<h3 class="filter_name">사이즈</h3>
+					<div class="filter_con check_on_label">
+						<label>
+							<input type="checkbox" name="size" checked>
+							<span>XS</span>
+						</label>
+						<label>
+							<input type="checkbox" name="size">
+							<span>S</span>
+						</label>
+						<label>
+							<input type="checkbox" name="size">
+							<span>M</span>
+						</label>
+						<label>
+							<input type="checkbox" name="size">
+							<span>L</span>
+						</label>
+						<label>
+							<input type="checkbox" name="size">
+							<span>XL</span>
+						</label>
+						<label>
+							<input type="checkbox" name="size">
+							<span>XXL</span>
+						</label>
+						<label>
+							<input type="checkbox" name="size">
+							<span>XXXL</span>
+						</label>
+					</div>
+				</li>
+				<!-- //FILTER > 사이즈 -->
+				<!-- FILTER > 가격대 -->
+				<li>
+					<h3 class="filter_name">가격대</h3>
+					<div class="filter_con range_type">
+						<div id="filter_priceRange"></div>
+						<div class="range_box clear">
+							<div class="start"><input type="text" id="price_start" title="가격대 최소 설정값"><span>원</span></div>
+							<div class="end"><input type="text" id="price_end" title="가격대 최대 설정값"><span>원</span></div>
+						</div>
+					</div>
+				</li>
+				<!-- //FILTER > 가격대 -->
+			</ul>
+
+			<div class="btn_area">
+				<ul class="ea2">
+					<li><a href="#" class="btn-basic h-large"><i class="icon_reset mr-5"></i>초기화</a></li>
+					<li><a href="#" class="btn-point h-large">적용</a></li>
+				</ul>
+			</div>
+		</div><!-- //.layer-content -->
+	</div>
+</div>
+<!-- //리스트 > 필터 -->
+
+<script type="text/javascript">
+//연령 설정
+$(function(){
+	var age_range = document.getElementById('filter_ageRange');
+	var inputStart = document.getElementById('age_start');
+	var inputEnd = document.getElementById('age_end');
+	var inputs = [inputStart, inputEnd];
+
+	noUiSlider.create(age_range, {
+		start: [ 0, 30 ],
+		step: 10,
+		connect: true,
+		behaviour: 'drag',
+		range: {
+			'min': [   0 ],
+			'max': [ 100 ]
+		},
+		format: wNumb({
+			decimals: 0
+			//postfix: '세'
+		})
+	});
+
+	age_range.noUiSlider.on('update', function( values, handle ) {
+		inputs[handle].value = values[handle];
+	});
+
+	function setSliderHandle(i, value) {
+		var r = [null,null];
+		r[i] = value;
+		age_range.noUiSlider.set(r);
+	}
+
+	inputs.forEach(function(input, handle) {
+
+	input.addEventListener('change', function(){
+		setSliderHandle(handle, this.value);
+	});
+
+	input.addEventListener('keydown', function( e ) {
+
+		var values = age_range.noUiSlider.get();
+		var value = Number(values[handle]);
+		var steps = age_range.noUiSlider.steps();
+		var step = steps[handle];
+		var position;
+
+		switch ( e.which ) {
+			case 13:
+				setSliderHandle(handle, this.value);
+				break;
+			}
+		});
+	});
+})
+
+//가격 설정
+$(function(){
+	var price_range = document.getElementById('filter_priceRange');
+	var inputStart = document.getElementById('price_start');
+	var inputEnd = document.getElementById('price_end');
+	var inputs = [inputStart, inputEnd];
+
+	noUiSlider.create(price_range, {
+		start: [ 0, 300000 ],
+		step: 10,
+		connect: true,
+		behaviour: 'drag',
+		range: {
+			'min': [   0 ],
+			'max': [ 1000000 ]
+		},
+		format: wNumb({
+			decimals: 0,
+			thousand: ','
+		})
+	});
+
+	price_range.noUiSlider.on('update', function( values, handle ) {
+		inputs[handle].value = values[handle];
+	});
+
+	function setSliderHandle(i, value) {
+		var r = [null,null];
+		r[i] = value;
+		price_range.noUiSlider.set(r);
+	}
+
+	inputs.forEach(function(input, handle) {
+
+	input.addEventListener('change', function(){
+		setSliderHandle(handle, this.value);
+	});
+
+	input.addEventListener('keydown', function( e ) {
+
+		var values = price_range.noUiSlider.get();
+		var value = Number(values[handle]);
+		var steps = price_range.noUiSlider.steps();
+		var step = steps[handle];
+		var position;
+
+		switch ( e.which ) {
+			case 13:
+				setSliderHandle(handle, this.value);
+				break;
+			}
+		});
+	});
+})
+</script>
+</body>
+</html>
